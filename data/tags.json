@@ -1,0 +1,3786 @@
+{
+  "schema": "promptforge.tags/1",
+  "count": 402,
+  "items": [
+    {
+      "id": "tag-comp-upper",
+      "name": "upper body",
+      "category_id": "cat-composition",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "上半身 · 半身构图，最常用的安全景别",
+      "version": "1.3.0",
+      "name_zh": "上半身"
+    },
+    {
+      "id": "tag-comp-full",
+      "name": "full body",
+      "category_id": "cat-composition",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "全身 · 展示完整服装与姿态",
+      "version": "1.3.0",
+      "name_zh": "全身"
+    },
+    {
+      "id": "tag-comp-cowboy",
+      "name": "cowboy shot",
+      "category_id": "cat-composition",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "七分身 · 到大腿中段的取景",
+      "version": "1.3.0",
+      "name_zh": "七分身"
+    },
+    {
+      "id": "tag-comp-closeup",
+      "name": "close-up",
+      "category_id": "cat-composition",
+      "model_families": [
+        "illustrious",
+        "noobai"
+      ],
+      "description": "特写 · 面部占画面主体，细节要求高",
+      "version": "1.3.0",
+      "name_zh": "特写"
+    },
+    {
+      "id": "tag-comp-lowangle",
+      "name": "from below",
+      "category_id": "cat-composition",
+      "model_families": [
+        "illustrious",
+        "noobai"
+      ],
+      "description": "仰角 · 增强压迫感与身高差",
+      "version": "1.3.0",
+      "name_zh": "仰角"
+    },
+    {
+      "id": "tag-scene-classroom",
+      "name": "classroom",
+      "category_id": "cat-scene",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "教室 · 窗边与课桌是稳定构图元素",
+      "version": "1.3.0",
+      "name_zh": "教室"
+    },
+    {
+      "id": "tag-scene-rooftop",
+      "name": "rooftop",
+      "category_id": "cat-scene",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "天台 · 开阔天空配栏杆",
+      "version": "1.3.0",
+      "name_zh": "天台"
+    },
+    {
+      "id": "tag-scene-cafe",
+      "name": "cafe",
+      "category_id": "cat-scene",
+      "model_families": [
+        "anima",
+        "illustrious"
+      ],
+      "description": "咖啡厅 · 暖光与桌面道具",
+      "version": "1.3.0",
+      "name_zh": "咖啡厅"
+    },
+    {
+      "id": "tag-scene-forest",
+      "name": "forest",
+      "category_id": "cat-scene",
+      "model_families": [
+        "illustrious",
+        "noobai"
+      ],
+      "description": "森林 · 斑驳光线，容易出氛围",
+      "version": "1.3.0",
+      "name_zh": "森林"
+    },
+    {
+      "id": "tag-scene-street",
+      "name": "street",
+      "category_id": "cat-scene",
+      "model_families": [
+        "anima",
+        "noobai"
+      ],
+      "description": "街道 · 雨后与夜景效果最佳",
+      "version": "1.3.0",
+      "name_zh": "街道"
+    },
+    {
+      "id": "tag-outfit-school",
+      "name": "school uniform",
+      "category_id": "cat-outfit",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "校服 · 通用制服，注意领结与裙长",
+      "version": "1.3.0",
+      "name_zh": "校服"
+    },
+    {
+      "id": "tag-outfit-kimono",
+      "name": "kimono",
+      "category_id": "cat-outfit",
+      "model_families": [
+        "illustrious",
+        "noobai"
+      ],
+      "description": "和服 · 需要额外描述花纹与腰带",
+      "version": "1.3.0",
+      "name_zh": "和服"
+    },
+    {
+      "id": "tag-outfit-hoodie",
+      "name": "hoodie",
+      "category_id": "cat-outfit",
+      "model_families": [
+        "anima",
+        "noobai"
+      ],
+      "description": "连帽衫 · 休闲场景常用",
+      "version": "1.3.0",
+      "name_zh": "连帽衫"
+    },
+    {
+      "id": "tag-outfit-dress",
+      "name": "dress",
+      "category_id": "cat-outfit",
+      "model_families": [
+        "anima",
+        "illustrious"
+      ],
+      "description": "连衣裙 · 配 light 类标签更稳",
+      "version": "1.3.0",
+      "name_zh": "连衣裙"
+    },
+    {
+      "id": "tag-role-idol",
+      "name": "idol",
+      "category_id": "cat-role",
+      "model_families": [
+        "anima",
+        "illustrious"
+      ],
+      "description": "偶像 · 舞台服装与聚光灯",
+      "version": "1.3.0",
+      "name_zh": "偶像"
+    },
+    {
+      "id": "tag-role-maid",
+      "name": "maid",
+      "category_id": "cat-role",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "女仆 · 围裙与头饰是识别要点",
+      "version": "1.3.0",
+      "name_zh": "女仆"
+    },
+    {
+      "id": "tag-role-knight",
+      "name": "knight",
+      "category_id": "cat-role",
+      "model_families": [
+        "illustrious",
+        "noobai"
+      ],
+      "description": "骑士 · 铠甲细节多，建议提高步数",
+      "version": "1.3.0",
+      "name_zh": "骑士"
+    },
+    {
+      "id": "tag-pose-stand",
+      "name": "standing",
+      "category_id": "cat-pose",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "站立 · 全身首选",
+      "version": "1.3.0",
+      "name_zh": "站立"
+    },
+    {
+      "id": "tag-pose-sit",
+      "name": "sitting",
+      "category_id": "cat-pose",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "坐姿 · 需说明坐在什么上",
+      "version": "1.3.0",
+      "name_zh": "坐姿"
+    },
+    {
+      "id": "tag-pose-lookback",
+      "name": "looking back",
+      "category_id": "cat-pose",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "回眸 · 常与 over shoulder 组合",
+      "version": "1.3.0",
+      "name_zh": "回眸"
+    },
+    {
+      "id": "tag-pose-armsup",
+      "name": "arms up",
+      "category_id": "cat-pose",
+      "model_families": [
+        "anima",
+        "noobai"
+      ],
+      "description": "举手 · 容易崩手，负向要加 bad hands",
+      "version": "1.3.0",
+      "name_zh": "举手"
+    },
+    {
+      "id": "tag-exp-smile",
+      "name": "smile",
+      "category_id": "cat-expression",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "微笑 · 基础表情，几乎无副作用",
+      "version": "1.3.0",
+      "name_zh": "微笑"
+    },
+    {
+      "id": "tag-exp-blush",
+      "name": "blush",
+      "category_id": "cat-expression",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "脸红 · 提升亲近感",
+      "version": "1.3.0",
+      "name_zh": "脸红"
+    },
+    {
+      "id": "tag-exp-serious",
+      "name": "serious",
+      "category_id": "cat-expression",
+      "model_families": [
+        "illustrious",
+        "noobai"
+      ],
+      "description": "认真 · 配合低角度更冷峻",
+      "version": "1.3.0",
+      "name_zh": "认真"
+    },
+    {
+      "id": "tag-exp-eyecontact",
+      "name": "looking at viewer",
+      "category_id": "cat-expression",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "看向镜头 · 强化对视线",
+      "version": "1.3.0",
+      "name_zh": "看向镜头"
+    },
+    {
+      "id": "tag-light-soft",
+      "name": "soft lighting",
+      "category_id": "cat-light",
+      "model_families": [
+        "anima",
+        "illustrious"
+      ],
+      "description": "柔光 · 减少硬阴影",
+      "version": "1.3.0",
+      "name_zh": "柔光"
+    },
+    {
+      "id": "tag-light-back",
+      "name": "backlighting",
+      "category_id": "cat-light",
+      "model_families": [
+        "illustrious",
+        "noobai"
+      ],
+      "description": "逆光 · 轮廓光与发丝高光",
+      "version": "1.3.0",
+      "name_zh": "逆光"
+    },
+    {
+      "id": "tag-light-golden",
+      "name": "golden hour",
+      "category_id": "cat-light",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "黄金时刻 · 侧逆光暖调",
+      "version": "1.3.0",
+      "name_zh": "黄金时刻"
+    },
+    {
+      "id": "tag-light-neon",
+      "name": "neon lights",
+      "category_id": "cat-light",
+      "model_families": [
+        "illustrious",
+        "noobai"
+      ],
+      "description": "霓虹 · 夜景高饱和光源",
+      "version": "1.3.0",
+      "name_zh": "霓虹"
+    },
+    {
+      "id": "tag-style-watercolor",
+      "name": "watercolor",
+      "category_id": "cat-style",
+      "model_families": [
+        "illustrious",
+        "noobai"
+      ],
+      "description": "水彩 · 边缘柔和，适合留白",
+      "version": "1.3.0",
+      "name_zh": "水彩"
+    },
+    {
+      "id": "tag-style-anime",
+      "name": "anime coloring",
+      "category_id": "cat-style",
+      "model_families": [
+        "anima",
+        "illustrious"
+      ],
+      "description": "动画上色 · 色块分明",
+      "version": "1.3.0",
+      "name_zh": "动画上色"
+    },
+    {
+      "id": "tag-style-monochrome",
+      "name": "monochrome",
+      "category_id": "cat-style",
+      "model_families": [
+        "illustrious",
+        "noobai"
+      ],
+      "description": "单色 · 会压制彩色标签，慎与霓虹同用",
+      "version": "1.3.0",
+      "name_zh": "单色"
+    },
+    {
+      "id": "tag-quality-masterpiece",
+      "name": "masterpiece",
+      "category_id": "cat-quality",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "杰作 · 通用质量前缀",
+      "version": "1.3.0",
+      "name_zh": "杰作"
+    },
+    {
+      "id": "tag-quality-best",
+      "name": "best quality",
+      "category_id": "cat-quality",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "最佳质量 · 与 masterpiece 常同时使用",
+      "version": "1.3.0",
+      "name_zh": "最佳质量"
+    },
+    {
+      "id": "tag-quality-detail",
+      "name": "highly detailed",
+      "category_id": "cat-quality",
+      "model_families": [
+        "illustrious",
+        "noobai"
+      ],
+      "description": "高细节 · 提高纹理密度，耗时略增",
+      "version": "1.3.0",
+      "name_zh": "高细节"
+    },
+    {
+      "id": "tag-bg-bokeh",
+      "name": "bokeh",
+      "category_id": "cat-background",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "背景虚化 · 突出人物",
+      "version": "1.3.0",
+      "name_zh": "背景虚化"
+    },
+    {
+      "id": "tag-bg-sky",
+      "name": "sky",
+      "category_id": "cat-background",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "天空 · 配云量与时间描述更准",
+      "version": "1.3.0",
+      "name_zh": "天空"
+    },
+    {
+      "id": "tag-bg-night",
+      "name": "night",
+      "category_id": "cat-background",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "夜晚 · 与霓虹、街灯搭配",
+      "version": "1.3.0",
+      "name_zh": "夜晚"
+    },
+    {
+      "id": "tag-q-8k",
+      "name": "8k",
+      "category_id": "cat-quality",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "8K · 质量前缀，部分模型收益有限",
+      "version": "1.3.0",
+      "name_zh": "8K"
+    },
+    {
+      "id": "tag-q-absurdres",
+      "name": "absurdres",
+      "category_id": "cat-quality",
+      "model_families": [
+        "illustrious",
+        "noobai"
+      ],
+      "description": "超高分辨率 · 与高细节标签同用",
+      "version": "1.3.0",
+      "name_zh": "超高分辨率"
+    },
+    {
+      "id": "tag-neg-lowres",
+      "name": "lowres",
+      "category_id": "cat-negative",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "低分辨率 · 负向基础项",
+      "version": "1.3.0",
+      "name_zh": "低分辨率"
+    },
+    {
+      "id": "tag-neg-badhands",
+      "name": "bad hands",
+      "category_id": "cat-negative",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "手部畸形 · 举手类姿态必加",
+      "version": "1.3.0",
+      "name_zh": "手部畸形"
+    },
+    {
+      "id": "tag-neg-extralimbs",
+      "name": "extra limbs",
+      "category_id": "cat-negative",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "多余肢体 · 全身图常用",
+      "version": "1.3.0",
+      "name_zh": "多余肢体"
+    },
+    {
+      "id": "tag-neg-watermark",
+      "name": "watermark",
+      "category_id": "cat-negative",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "水印 · 负向基础项",
+      "version": "1.3.0",
+      "name_zh": "水印"
+    },
+    {
+      "id": "tag-neg-blurry",
+      "name": "blurry",
+      "category_id": "cat-negative",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "description": "模糊 · 与 lowres 同用",
+      "version": "1.3.0",
+      "name_zh": "模糊"
+    },
+    {
+      "id": "tag-highres",
+      "name": "highres",
+      "category_id": "cat-quality",
+      "model_families": [],
+      "description": "高分辨率",
+      "version": "1.3.0",
+      "name_zh": "高分辨率"
+    },
+    {
+      "id": "tag-ultra-detailed",
+      "name": "ultra detailed",
+      "category_id": "cat-quality",
+      "model_families": [],
+      "description": "超精细描绘",
+      "version": "1.3.0",
+      "name_zh": "超精细描绘"
+    },
+    {
+      "id": "tag-sharp-focus",
+      "name": "sharp focus",
+      "category_id": "cat-quality",
+      "model_families": [],
+      "description": "锐利对焦",
+      "version": "1.3.0",
+      "name_zh": "锐利对焦"
+    },
+    {
+      "id": "tag-depth-of-field",
+      "name": "depth of field",
+      "category_id": "cat-quality",
+      "model_families": [],
+      "description": "景深 · 主体清晰、背景柔化",
+      "version": "1.3.0",
+      "name_zh": "景深"
+    },
+    {
+      "id": "tag-bad-anatomy",
+      "name": "bad anatomy",
+      "category_id": "cat-negative",
+      "model_families": [],
+      "description": "解剖错误",
+      "version": "1.3.0",
+      "name_zh": "解剖错误"
+    },
+    {
+      "id": "tag-worst-quality",
+      "name": "worst quality",
+      "category_id": "cat-negative",
+      "model_families": [],
+      "description": "最差质量",
+      "version": "1.3.0",
+      "name_zh": "最差质量"
+    },
+    {
+      "id": "tag-signature",
+      "name": "signature",
+      "category_id": "cat-negative",
+      "model_families": [],
+      "description": "签名",
+      "version": "1.3.0",
+      "name_zh": "签名"
+    },
+    {
+      "id": "tag-text",
+      "name": "text",
+      "category_id": "cat-negative",
+      "model_families": [],
+      "description": "文字",
+      "version": "1.3.0",
+      "name_zh": "文字"
+    },
+    {
+      "id": "tag-jpeg-artifacts",
+      "name": "jpeg artifacts",
+      "category_id": "cat-negative",
+      "model_families": [],
+      "description": "压缩噪点",
+      "version": "1.3.0",
+      "name_zh": "压缩噪点"
+    },
+    {
+      "id": "tag-from-above",
+      "name": "from above",
+      "category_id": "cat-photo",
+      "model_families": [],
+      "description": "俯视机位",
+      "version": "1.3.0",
+      "name_zh": "俯视机位"
+    },
+    {
+      "id": "tag-from-below",
+      "name": "from below",
+      "category_id": "cat-photo",
+      "model_families": [],
+      "description": "仰视机位",
+      "version": "1.3.0",
+      "name_zh": "仰视机位"
+    },
+    {
+      "id": "tag-dutch-angle",
+      "name": "dutch angle",
+      "category_id": "cat-photo",
+      "model_families": [],
+      "description": "荷兰角 · 倾斜构图",
+      "version": "1.3.0",
+      "name_zh": "荷兰角"
+    },
+    {
+      "id": "tag-wide-shot",
+      "name": "wide shot",
+      "category_id": "cat-photo",
+      "model_families": [],
+      "description": "广角",
+      "version": "1.3.0",
+      "name_zh": "广角"
+    },
+    {
+      "id": "tag-close-up",
+      "name": "close-up",
+      "category_id": "cat-photo",
+      "model_families": [],
+      "description": "特写",
+      "version": "1.3.0",
+      "name_zh": "特写"
+    },
+    {
+      "id": "tag-fisheye",
+      "name": "fisheye",
+      "category_id": "cat-photo",
+      "model_families": [],
+      "description": "鱼眼",
+      "version": "1.3.0",
+      "name_zh": "鱼眼"
+    },
+    {
+      "id": "tag-bokeh",
+      "name": "bokeh",
+      "category_id": "cat-photo",
+      "model_families": [],
+      "description": "背景虚化",
+      "version": "1.3.0",
+      "name_zh": "背景虚化"
+    },
+    {
+      "id": "tag-telephoto",
+      "name": "telephoto",
+      "category_id": "cat-photo",
+      "model_families": [],
+      "description": "长焦压缩",
+      "version": "1.3.0",
+      "name_zh": "长焦压缩"
+    },
+    {
+      "id": "tag-cinematic-lighting",
+      "name": "cinematic lighting",
+      "category_id": "cat-light",
+      "model_families": [],
+      "description": "电影感打光",
+      "version": "1.3.0",
+      "name_zh": "电影感打光"
+    },
+    {
+      "id": "tag-rim-light",
+      "name": "rim light",
+      "category_id": "cat-light",
+      "model_families": [],
+      "description": "边缘光 · 勾轮廓",
+      "version": "1.3.0",
+      "name_zh": "边缘光"
+    },
+    {
+      "id": "tag-god-rays",
+      "name": "god rays",
+      "category_id": "cat-light",
+      "model_families": [],
+      "description": "丁达尔光束",
+      "version": "1.3.0",
+      "name_zh": "丁达尔光束"
+    },
+    {
+      "id": "tag-studio-light",
+      "name": "studio light",
+      "category_id": "cat-light",
+      "model_families": [],
+      "description": "棚拍灯",
+      "version": "1.3.0",
+      "name_zh": "棚拍灯"
+    },
+    {
+      "id": "tag-chiaroscuro",
+      "name": "chiaroscuro",
+      "category_id": "cat-light",
+      "model_families": [],
+      "description": "明暗对照",
+      "version": "1.3.0",
+      "name_zh": "明暗对照"
+    },
+    {
+      "id": "tag-portrait",
+      "name": "portrait",
+      "category_id": "cat-composition",
+      "model_families": [],
+      "description": "肖像",
+      "version": "1.3.0",
+      "name_zh": "肖像"
+    },
+    {
+      "id": "tag-profile",
+      "name": "profile",
+      "category_id": "cat-composition",
+      "model_families": [],
+      "description": "侧脸",
+      "version": "1.3.0",
+      "name_zh": "侧脸"
+    },
+    {
+      "id": "tag-from-behind",
+      "name": "from behind",
+      "category_id": "cat-composition",
+      "model_families": [],
+      "description": "背面",
+      "version": "1.3.0",
+      "name_zh": "背面"
+    },
+    {
+      "id": "tag-dynamic-angle",
+      "name": "dynamic angle",
+      "category_id": "cat-composition",
+      "model_families": [],
+      "description": "动态视角",
+      "version": "1.3.0",
+      "name_zh": "动态视角"
+    },
+    {
+      "id": "tag-foreshortening",
+      "name": "foreshortening",
+      "category_id": "cat-composition",
+      "model_families": [],
+      "description": "透视缩短",
+      "version": "1.3.0",
+      "name_zh": "透视缩短"
+    },
+    {
+      "id": "tag-anime",
+      "name": "anime",
+      "category_id": "cat-art-form",
+      "model_families": [],
+      "description": "动漫",
+      "version": "1.3.0",
+      "name_zh": "动漫"
+    },
+    {
+      "id": "tag-chibi",
+      "name": "chibi",
+      "category_id": "cat-art-form",
+      "model_families": [],
+      "description": "Q 版",
+      "version": "1.3.0",
+      "name_zh": "Q 版"
+    },
+    {
+      "id": "tag-photorealistic",
+      "name": "photorealistic",
+      "category_id": "cat-art-form",
+      "model_families": [],
+      "description": "写实",
+      "version": "1.3.0",
+      "name_zh": "写实"
+    },
+    {
+      "id": "tag-comic",
+      "name": "comic",
+      "category_id": "cat-art-form",
+      "model_families": [],
+      "description": "美漫",
+      "version": "1.3.0",
+      "name_zh": "美漫"
+    },
+    {
+      "id": "tag-illustration",
+      "name": "illustration",
+      "category_id": "cat-art-form",
+      "model_families": [],
+      "description": "插画",
+      "version": "1.3.0",
+      "name_zh": "插画"
+    },
+    {
+      "id": "tag-sketch",
+      "name": "sketch",
+      "category_id": "cat-art-form",
+      "model_families": [],
+      "description": "草图",
+      "version": "1.3.0",
+      "name_zh": "草图"
+    },
+    {
+      "id": "tag-watercolor",
+      "name": "watercolor",
+      "category_id": "cat-art-tech",
+      "model_families": [],
+      "description": "水彩",
+      "version": "1.3.0",
+      "name_zh": "水彩"
+    },
+    {
+      "id": "tag-oil-painting",
+      "name": "oil painting",
+      "category_id": "cat-art-tech",
+      "model_families": [],
+      "description": "油画",
+      "version": "1.3.0",
+      "name_zh": "油画"
+    },
+    {
+      "id": "tag-ink-wash",
+      "name": "ink wash",
+      "category_id": "cat-art-tech",
+      "model_families": [],
+      "description": "水墨",
+      "version": "1.3.0",
+      "name_zh": "水墨"
+    },
+    {
+      "id": "tag-marker",
+      "name": "marker",
+      "category_id": "cat-art-tech",
+      "model_families": [],
+      "description": "马克笔",
+      "version": "1.3.0",
+      "name_zh": "马克笔"
+    },
+    {
+      "id": "tag-pastel",
+      "name": "pastel",
+      "category_id": "cat-art-tech",
+      "model_families": [],
+      "description": "粉彩",
+      "version": "1.3.0",
+      "name_zh": "粉彩"
+    },
+    {
+      "id": "tag-lineart",
+      "name": "lineart",
+      "category_id": "cat-art-tech",
+      "model_families": [],
+      "description": "线稿",
+      "version": "1.3.0",
+      "name_zh": "线稿"
+    },
+    {
+      "id": "tag-pixel-art",
+      "name": "pixel art",
+      "category_id": "cat-art-style",
+      "model_families": [],
+      "description": "像素艺术",
+      "version": "1.3.0",
+      "name_zh": "像素艺术"
+    },
+    {
+      "id": "tag-low-poly",
+      "name": "low poly",
+      "category_id": "cat-art-style",
+      "model_families": [],
+      "description": "低多边形",
+      "version": "1.3.0",
+      "name_zh": "低多边形"
+    },
+    {
+      "id": "tag-vector",
+      "name": "vector",
+      "category_id": "cat-art-style",
+      "model_families": [],
+      "description": "矢量",
+      "version": "1.3.0",
+      "name_zh": "矢量"
+    },
+    {
+      "id": "tag-cel-shading",
+      "name": "cel shading",
+      "category_id": "cat-art-style",
+      "model_families": [],
+      "description": "赛璐璐上色",
+      "version": "1.3.0",
+      "name_zh": "赛璐璐上色"
+    },
+    {
+      "id": "tag-3d-render",
+      "name": "3d render",
+      "category_id": "cat-art-style",
+      "model_families": [],
+      "description": "3D 渲染",
+      "version": "1.3.0",
+      "name_zh": "3D 渲染"
+    },
+    {
+      "id": "tag-art-nouveau",
+      "name": "art nouveau",
+      "category_id": "cat-art-move",
+      "model_families": [],
+      "description": "新艺术",
+      "version": "1.3.0",
+      "name_zh": "新艺术"
+    },
+    {
+      "id": "tag-pop-art",
+      "name": "pop art",
+      "category_id": "cat-art-move",
+      "model_families": [],
+      "description": "波普",
+      "version": "1.3.0",
+      "name_zh": "波普"
+    },
+    {
+      "id": "tag-surrealism",
+      "name": "surrealism",
+      "category_id": "cat-art-move",
+      "model_families": [],
+      "description": "超现实",
+      "version": "1.3.0",
+      "name_zh": "超现实"
+    },
+    {
+      "id": "tag-minimalism",
+      "name": "minimalism",
+      "category_id": "cat-art-move",
+      "model_families": [],
+      "description": "极简",
+      "version": "1.3.0",
+      "name_zh": "极简"
+    },
+    {
+      "id": "tag-ukiyo-e",
+      "name": "ukiyo-e",
+      "category_id": "cat-art-move",
+      "model_families": [],
+      "description": "浮世绘",
+      "version": "1.3.0",
+      "name_zh": "浮世绘"
+    },
+    {
+      "id": "tag-film-grain",
+      "name": "film grain",
+      "category_id": "cat-art-media",
+      "model_families": [],
+      "description": "胶片颗粒",
+      "version": "1.3.0",
+      "name_zh": "胶片颗粒"
+    },
+    {
+      "id": "tag-vintage",
+      "name": "vintage",
+      "category_id": "cat-art-media",
+      "model_families": [],
+      "description": "复古",
+      "version": "1.3.0",
+      "name_zh": "复古"
+    },
+    {
+      "id": "tag-vhs",
+      "name": "vhs",
+      "category_id": "cat-art-media",
+      "model_families": [],
+      "description": "录像带质感",
+      "version": "1.3.0",
+      "name_zh": "录像带质感"
+    },
+    {
+      "id": "tag-glitch",
+      "name": "glitch",
+      "category_id": "cat-art-media",
+      "model_families": [],
+      "description": "故障艺术",
+      "version": "1.3.0",
+      "name_zh": "故障艺术"
+    },
+    {
+      "id": "tag-ocean",
+      "name": "ocean",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "大海",
+      "version": "1.3.0",
+      "name_zh": "大海"
+    },
+    {
+      "id": "tag-beach",
+      "name": "beach",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "海滩",
+      "version": "1.3.0",
+      "name_zh": "海滩"
+    },
+    {
+      "id": "tag-forest",
+      "name": "forest",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "森林",
+      "version": "1.3.0",
+      "name_zh": "森林"
+    },
+    {
+      "id": "tag-mountain",
+      "name": "mountain",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "山",
+      "version": "1.3.0",
+      "name_zh": "山"
+    },
+    {
+      "id": "tag-night-sky",
+      "name": "night sky",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "夜空",
+      "version": "1.3.0",
+      "name_zh": "夜空"
+    },
+    {
+      "id": "tag-starry-sky",
+      "name": "starry sky",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "星空",
+      "version": "1.3.0",
+      "name_zh": "星空"
+    },
+    {
+      "id": "tag-sunset",
+      "name": "sunset",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "日落",
+      "version": "1.3.0",
+      "name_zh": "日落"
+    },
+    {
+      "id": "tag-moon",
+      "name": "moon",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "月亮",
+      "version": "1.3.0",
+      "name_zh": "月亮"
+    },
+    {
+      "id": "tag-snow",
+      "name": "snow",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "雪",
+      "version": "1.3.0",
+      "name_zh": "雪"
+    },
+    {
+      "id": "tag-desert",
+      "name": "desert",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "沙漠",
+      "version": "1.3.0",
+      "name_zh": "沙漠"
+    },
+    {
+      "id": "tag-park",
+      "name": "park",
+      "category_id": "cat-scene-outdoor",
+      "model_families": [],
+      "description": "公园",
+      "version": "1.3.0",
+      "name_zh": "公园"
+    },
+    {
+      "id": "tag-cafe-terrace",
+      "name": "cafe terrace",
+      "category_id": "cat-scene-outdoor",
+      "model_families": [],
+      "description": "露天咖啡座",
+      "version": "1.3.0",
+      "name_zh": "露天咖啡座"
+    },
+    {
+      "id": "tag-street",
+      "name": "street",
+      "category_id": "cat-scene-outdoor",
+      "model_families": [],
+      "description": "街道",
+      "version": "1.3.0",
+      "name_zh": "街道"
+    },
+    {
+      "id": "tag-rooftop",
+      "name": "rooftop",
+      "category_id": "cat-scene-outdoor",
+      "model_families": [],
+      "description": "天台",
+      "version": "1.3.0",
+      "name_zh": "天台"
+    },
+    {
+      "id": "tag-shrine",
+      "name": "shrine",
+      "category_id": "cat-scene-outdoor",
+      "model_families": [],
+      "description": "神社",
+      "version": "1.3.0",
+      "name_zh": "神社"
+    },
+    {
+      "id": "tag-school-gate",
+      "name": "school gate",
+      "category_id": "cat-scene-outdoor",
+      "model_families": [],
+      "description": "校门",
+      "version": "1.3.0",
+      "name_zh": "校门"
+    },
+    {
+      "id": "tag-station",
+      "name": "station",
+      "category_id": "cat-scene-outdoor",
+      "model_families": [],
+      "description": "车站",
+      "version": "1.3.0",
+      "name_zh": "车站"
+    },
+    {
+      "id": "tag-cityscape",
+      "name": "cityscape",
+      "category_id": "cat-scene-city",
+      "model_families": [],
+      "description": "城市景观",
+      "version": "1.3.0",
+      "name_zh": "城市景观"
+    },
+    {
+      "id": "tag-neon-signs",
+      "name": "neon signs",
+      "category_id": "cat-scene-city",
+      "model_families": [],
+      "description": "霓虹招牌",
+      "version": "1.3.0",
+      "name_zh": "霓虹招牌"
+    },
+    {
+      "id": "tag-alley",
+      "name": "alley",
+      "category_id": "cat-scene-city",
+      "model_families": [],
+      "description": "小巷",
+      "version": "1.3.0",
+      "name_zh": "小巷"
+    },
+    {
+      "id": "tag-crosswalk",
+      "name": "crosswalk",
+      "category_id": "cat-scene-city",
+      "model_families": [],
+      "description": "斑马线",
+      "version": "1.3.0",
+      "name_zh": "斑马线"
+    },
+    {
+      "id": "tag-traffic-light",
+      "name": "traffic light",
+      "category_id": "cat-scene-city",
+      "model_families": [],
+      "description": "红绿灯",
+      "version": "1.3.0",
+      "name_zh": "红绿灯"
+    },
+    {
+      "id": "tag-vending-machine",
+      "name": "vending machine",
+      "category_id": "cat-scene-city",
+      "model_families": [],
+      "description": "自动贩卖机",
+      "version": "1.3.0",
+      "name_zh": "自动贩卖机"
+    },
+    {
+      "id": "tag-castle",
+      "name": "castle",
+      "category_id": "cat-scene-building",
+      "model_families": [],
+      "description": "城堡",
+      "version": "1.3.0",
+      "name_zh": "城堡"
+    },
+    {
+      "id": "tag-temple",
+      "name": "temple",
+      "category_id": "cat-scene-building",
+      "model_families": [],
+      "description": "寺庙",
+      "version": "1.3.0",
+      "name_zh": "寺庙"
+    },
+    {
+      "id": "tag-church",
+      "name": "church",
+      "category_id": "cat-scene-building",
+      "model_families": [],
+      "description": "教堂",
+      "version": "1.3.0",
+      "name_zh": "教堂"
+    },
+    {
+      "id": "tag-bridge",
+      "name": "bridge",
+      "category_id": "cat-scene-building",
+      "model_families": [],
+      "description": "桥",
+      "version": "1.3.0",
+      "name_zh": "桥"
+    },
+    {
+      "id": "tag-ruins",
+      "name": "ruins",
+      "category_id": "cat-scene-building",
+      "model_families": [],
+      "description": "废墟",
+      "version": "1.3.0",
+      "name_zh": "废墟"
+    },
+    {
+      "id": "tag-bedroom",
+      "name": "bedroom",
+      "category_id": "cat-scene-indoor",
+      "model_families": [],
+      "description": "卧室",
+      "version": "1.3.0",
+      "name_zh": "卧室"
+    },
+    {
+      "id": "tag-classroom",
+      "name": "classroom",
+      "category_id": "cat-scene-indoor",
+      "model_families": [],
+      "description": "教室",
+      "version": "1.3.0",
+      "name_zh": "教室"
+    },
+    {
+      "id": "tag-library",
+      "name": "library",
+      "category_id": "cat-scene-indoor",
+      "model_families": [],
+      "description": "图书馆",
+      "version": "1.3.0",
+      "name_zh": "图书馆"
+    },
+    {
+      "id": "tag-cafe-interior",
+      "name": "cafe interior",
+      "category_id": "cat-scene-indoor",
+      "model_families": [],
+      "description": "咖啡厅内景",
+      "version": "1.3.0",
+      "name_zh": "咖啡厅内景"
+    },
+    {
+      "id": "tag-bathroom",
+      "name": "bathroom",
+      "category_id": "cat-scene-indoor",
+      "model_families": [],
+      "description": "浴室",
+      "version": "1.3.0",
+      "name_zh": "浴室"
+    },
+    {
+      "id": "tag-living-room",
+      "name": "living room",
+      "category_id": "cat-scene-indoor",
+      "model_families": [],
+      "description": "客厅",
+      "version": "1.3.0",
+      "name_zh": "客厅"
+    },
+    {
+      "id": "tag-simple-background",
+      "name": "simple background",
+      "category_id": "cat-background",
+      "model_families": [],
+      "description": "简单背景",
+      "version": "1.3.0",
+      "name_zh": "简单背景"
+    },
+    {
+      "id": "tag-white-background",
+      "name": "white background",
+      "category_id": "cat-background",
+      "model_families": [],
+      "description": "白底",
+      "version": "1.3.0",
+      "name_zh": "白底"
+    },
+    {
+      "id": "tag-transparent-background",
+      "name": "transparent background",
+      "category_id": "cat-background",
+      "model_families": [],
+      "description": "透明背景",
+      "version": "1.3.0",
+      "name_zh": "透明背景"
+    },
+    {
+      "id": "tag-gradient-background",
+      "name": "gradient background",
+      "category_id": "cat-background",
+      "model_families": [],
+      "description": "渐变背景",
+      "version": "1.3.0",
+      "name_zh": "渐变背景"
+    },
+    {
+      "id": "tag-blurry-background",
+      "name": "blurry background",
+      "category_id": "cat-background",
+      "model_families": [],
+      "description": "模糊背景",
+      "version": "1.3.0",
+      "name_zh": "模糊背景"
+    },
+    {
+      "id": "tag-waterfall",
+      "name": "waterfall",
+      "category_id": "cat-scene-landscape",
+      "model_families": [],
+      "description": "瀑布",
+      "version": "1.3.0",
+      "name_zh": "瀑布"
+    },
+    {
+      "id": "tag-canyon",
+      "name": "canyon",
+      "category_id": "cat-scene-landscape",
+      "model_families": [],
+      "description": "峡谷",
+      "version": "1.3.0",
+      "name_zh": "峡谷"
+    },
+    {
+      "id": "tag-iceberg",
+      "name": "iceberg",
+      "category_id": "cat-scene-landscape",
+      "model_families": [],
+      "description": "冰山",
+      "version": "1.3.0",
+      "name_zh": "冰山"
+    },
+    {
+      "id": "tag-aurora",
+      "name": "aurora",
+      "category_id": "cat-scene-landscape",
+      "model_families": [],
+      "description": "极光",
+      "version": "1.3.0",
+      "name_zh": "极光"
+    },
+    {
+      "id": "tag-coral-reef",
+      "name": "coral reef",
+      "category_id": "cat-scene-landscape",
+      "model_families": [],
+      "description": "珊瑚礁",
+      "version": "1.3.0",
+      "name_zh": "珊瑚礁"
+    },
+    {
+      "id": "tag-ferris-wheel",
+      "name": "ferris wheel",
+      "category_id": "cat-scene-manmade",
+      "model_families": [],
+      "description": "摩天轮",
+      "version": "1.3.0",
+      "name_zh": "摩天轮"
+    },
+    {
+      "id": "tag-lighthouse",
+      "name": "lighthouse",
+      "category_id": "cat-scene-manmade",
+      "model_families": [],
+      "description": "灯塔",
+      "version": "1.3.0",
+      "name_zh": "灯塔"
+    },
+    {
+      "id": "tag-aqueduct",
+      "name": "aqueduct",
+      "category_id": "cat-scene-manmade",
+      "model_families": [],
+      "description": "高架水道",
+      "version": "1.3.0",
+      "name_zh": "高架水道"
+    },
+    {
+      "id": "tag-pyramid",
+      "name": "pyramid",
+      "category_id": "cat-scene-manmade",
+      "model_families": [],
+      "description": "金字塔",
+      "version": "1.3.0",
+      "name_zh": "金字塔"
+    },
+    {
+      "id": "tag-1girl",
+      "name": "1girl",
+      "category_id": "cat-char",
+      "model_families": [],
+      "description": "单人女性",
+      "version": "1.3.0",
+      "name_zh": "单人女性"
+    },
+    {
+      "id": "tag-1boy",
+      "name": "1boy",
+      "category_id": "cat-char",
+      "model_families": [],
+      "description": "单人男性",
+      "version": "1.3.0",
+      "name_zh": "单人男性"
+    },
+    {
+      "id": "tag-solo",
+      "name": "solo",
+      "category_id": "cat-char",
+      "model_families": [],
+      "description": "单人",
+      "version": "1.3.0",
+      "name_zh": "单人"
+    },
+    {
+      "id": "tag-duo",
+      "name": "duo",
+      "category_id": "cat-char",
+      "model_families": [],
+      "description": "双人",
+      "version": "1.3.0",
+      "name_zh": "双人"
+    },
+    {
+      "id": "tag-male-focus",
+      "name": "male focus",
+      "category_id": "cat-char",
+      "model_families": [],
+      "description": "男性主体",
+      "version": "1.3.0",
+      "name_zh": "男性主体"
+    },
+    {
+      "id": "tag-female-focus",
+      "name": "female focus",
+      "category_id": "cat-char",
+      "model_families": [],
+      "description": "女性主体",
+      "version": "1.3.0",
+      "name_zh": "女性主体"
+    },
+    {
+      "id": "tag-furry",
+      "name": "furry",
+      "category_id": "cat-char",
+      "model_families": [],
+      "description": "兽人",
+      "version": "1.3.0",
+      "name_zh": "兽人"
+    },
+    {
+      "id": "tag-anthro",
+      "name": "anthro",
+      "category_id": "cat-char",
+      "model_families": [],
+      "description": "拟人兽",
+      "version": "1.3.0",
+      "name_zh": "拟人兽"
+    },
+    {
+      "id": "tag-kemono",
+      "name": "kemono",
+      "category_id": "cat-char",
+      "model_families": [],
+      "description": "日系兽人",
+      "version": "1.3.0",
+      "name_zh": "日系兽人"
+    },
+    {
+      "id": "tag-suit",
+      "name": "suit",
+      "category_id": "cat-outfit",
+      "model_families": [],
+      "description": "西装",
+      "version": "1.3.0",
+      "name_zh": "西装"
+    },
+    {
+      "id": "tag-swimsuit",
+      "name": "swimsuit",
+      "category_id": "cat-outfit",
+      "model_families": [],
+      "description": "泳装",
+      "version": "1.3.0",
+      "name_zh": "泳装"
+    },
+    {
+      "id": "tag-jacket",
+      "name": "jacket",
+      "category_id": "cat-outfit",
+      "model_families": [],
+      "description": "夹克",
+      "version": "1.3.0",
+      "name_zh": "夹克"
+    },
+    {
+      "id": "tag-scarf",
+      "name": "scarf",
+      "category_id": "cat-outfit",
+      "model_families": [],
+      "description": "围巾",
+      "version": "1.3.0",
+      "name_zh": "围巾"
+    },
+    {
+      "id": "tag-t-shirt",
+      "name": "t-shirt",
+      "category_id": "cat-outfit-top",
+      "model_families": [],
+      "description": "T 恤",
+      "version": "1.3.0",
+      "name_zh": "T 恤"
+    },
+    {
+      "id": "tag-sweater",
+      "name": "sweater",
+      "category_id": "cat-outfit-top",
+      "model_families": [],
+      "description": "毛衣",
+      "version": "1.3.0",
+      "name_zh": "毛衣"
+    },
+    {
+      "id": "tag-coat",
+      "name": "coat",
+      "category_id": "cat-outfit-top",
+      "model_families": [],
+      "description": "大衣",
+      "version": "1.3.0",
+      "name_zh": "大衣"
+    },
+    {
+      "id": "tag-tank-top",
+      "name": "tank top",
+      "category_id": "cat-outfit-top",
+      "model_families": [],
+      "description": "背心",
+      "version": "1.3.0",
+      "name_zh": "背心"
+    },
+    {
+      "id": "tag-jersey",
+      "name": "jersey",
+      "category_id": "cat-outfit-top",
+      "model_families": [],
+      "description": "球衣",
+      "version": "1.3.0",
+      "name_zh": "球衣"
+    },
+    {
+      "id": "tag-shorts",
+      "name": "shorts",
+      "category_id": "cat-outfit-bottom",
+      "model_families": [],
+      "description": "短裤",
+      "version": "1.3.0",
+      "name_zh": "短裤"
+    },
+    {
+      "id": "tag-skirt",
+      "name": "skirt",
+      "category_id": "cat-outfit-bottom",
+      "model_families": [],
+      "description": "裙子",
+      "version": "1.3.0",
+      "name_zh": "裙子"
+    },
+    {
+      "id": "tag-jeans",
+      "name": "jeans",
+      "category_id": "cat-outfit-bottom",
+      "model_families": [],
+      "description": "牛仔裤",
+      "version": "1.3.0",
+      "name_zh": "牛仔裤"
+    },
+    {
+      "id": "tag-pants",
+      "name": "pants",
+      "category_id": "cat-outfit-bottom",
+      "model_families": [],
+      "description": "长裤",
+      "version": "1.3.0",
+      "name_zh": "长裤"
+    },
+    {
+      "id": "tag-glasses",
+      "name": "glasses",
+      "category_id": "cat-accessory",
+      "model_families": [],
+      "description": "眼镜",
+      "version": "1.3.0",
+      "name_zh": "眼镜"
+    },
+    {
+      "id": "tag-earring",
+      "name": "earring",
+      "category_id": "cat-accessory",
+      "model_families": [],
+      "description": "耳环",
+      "version": "1.3.0",
+      "name_zh": "耳环"
+    },
+    {
+      "id": "tag-necklace",
+      "name": "necklace",
+      "category_id": "cat-accessory",
+      "model_families": [],
+      "description": "项链",
+      "version": "1.3.0",
+      "name_zh": "项链"
+    },
+    {
+      "id": "tag-hat",
+      "name": "hat",
+      "category_id": "cat-accessory",
+      "model_families": [],
+      "description": "帽子",
+      "version": "1.3.0",
+      "name_zh": "帽子"
+    },
+    {
+      "id": "tag-goggles",
+      "name": "goggles",
+      "category_id": "cat-accessory",
+      "model_families": [],
+      "description": "护目镜",
+      "version": "1.3.0",
+      "name_zh": "护目镜"
+    },
+    {
+      "id": "tag-backpack",
+      "name": "backpack",
+      "category_id": "cat-accessory",
+      "model_families": [],
+      "description": "背包",
+      "version": "1.3.0",
+      "name_zh": "背包"
+    },
+    {
+      "id": "tag-walking",
+      "name": "walking",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "行走",
+      "version": "1.3.0",
+      "name_zh": "行走"
+    },
+    {
+      "id": "tag-running",
+      "name": "running",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "奔跑",
+      "version": "1.3.0",
+      "name_zh": "奔跑"
+    },
+    {
+      "id": "tag-jumping",
+      "name": "jumping",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "跳跃",
+      "version": "1.3.0",
+      "name_zh": "跳跃"
+    },
+    {
+      "id": "tag-lying",
+      "name": "lying",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "躺卧",
+      "version": "1.3.0",
+      "name_zh": "躺卧"
+    },
+    {
+      "id": "tag-grin",
+      "name": "grin",
+      "category_id": "cat-expression",
+      "model_families": [],
+      "description": "咧嘴笑",
+      "version": "1.3.0",
+      "name_zh": "咧嘴笑"
+    },
+    {
+      "id": "tag-surprised",
+      "name": "surprised",
+      "category_id": "cat-expression",
+      "model_families": [],
+      "description": "惊讶",
+      "version": "1.3.0",
+      "name_zh": "惊讶"
+    },
+    {
+      "id": "tag-crying",
+      "name": "crying",
+      "category_id": "cat-expression",
+      "model_families": [],
+      "description": "哭泣",
+      "version": "1.3.0",
+      "name_zh": "哭泣"
+    },
+    {
+      "id": "tag-sleepy",
+      "name": "sleepy",
+      "category_id": "cat-expression",
+      "model_families": [],
+      "description": "困倦",
+      "version": "1.3.0",
+      "name_zh": "困倦"
+    },
+    {
+      "id": "tag-embarrassed",
+      "name": "embarrassed",
+      "category_id": "cat-expression",
+      "model_families": [],
+      "description": "害羞",
+      "version": "1.3.0",
+      "name_zh": "害羞"
+    },
+    {
+      "id": "tag-blue-eyes",
+      "name": "blue eyes",
+      "category_id": "cat-eyes",
+      "model_families": [],
+      "description": "蓝眼",
+      "version": "1.3.0",
+      "name_zh": "蓝眼"
+    },
+    {
+      "id": "tag-green-eyes",
+      "name": "green eyes",
+      "category_id": "cat-eyes",
+      "model_families": [],
+      "description": "绿眼",
+      "version": "1.3.0",
+      "name_zh": "绿眼"
+    },
+    {
+      "id": "tag-red-eyes",
+      "name": "red eyes",
+      "category_id": "cat-eyes",
+      "model_families": [],
+      "description": "红眼",
+      "version": "1.3.0",
+      "name_zh": "红眼"
+    },
+    {
+      "id": "tag-yellow-eyes",
+      "name": "yellow eyes",
+      "category_id": "cat-eyes",
+      "model_families": [],
+      "description": "黄眼",
+      "version": "1.3.0",
+      "name_zh": "黄眼"
+    },
+    {
+      "id": "tag-heterochromia",
+      "name": "heterochromia",
+      "category_id": "cat-eyes",
+      "model_families": [],
+      "description": "异色瞳",
+      "version": "1.3.0",
+      "name_zh": "异色瞳"
+    },
+    {
+      "id": "tag-closed-eyes",
+      "name": "closed eyes",
+      "category_id": "cat-eyes",
+      "model_families": [],
+      "description": "闭眼",
+      "version": "1.3.0",
+      "name_zh": "闭眼"
+    },
+    {
+      "id": "tag-white-hair",
+      "name": "white hair",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "白发",
+      "version": "1.3.0",
+      "name_zh": "白发"
+    },
+    {
+      "id": "tag-black-hair",
+      "name": "black hair",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "黑发",
+      "version": "1.3.0",
+      "name_zh": "黑发"
+    },
+    {
+      "id": "tag-blonde-hair",
+      "name": "blonde hair",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "金发",
+      "version": "1.3.0",
+      "name_zh": "金发"
+    },
+    {
+      "id": "tag-blue-hair",
+      "name": "blue hair",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "蓝发",
+      "version": "1.3.0",
+      "name_zh": "蓝发"
+    },
+    {
+      "id": "tag-long-hair",
+      "name": "long hair",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "长发",
+      "version": "1.3.0",
+      "name_zh": "长发"
+    },
+    {
+      "id": "tag-short-hair",
+      "name": "short hair",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "短发",
+      "version": "1.3.0",
+      "name_zh": "短发"
+    },
+    {
+      "id": "tag-ponytail",
+      "name": "ponytail",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "马尾",
+      "version": "1.3.0",
+      "name_zh": "马尾"
+    },
+    {
+      "id": "tag-cat-ears",
+      "name": "cat ears",
+      "category_id": "cat-ears",
+      "model_families": [],
+      "description": "猫耳",
+      "version": "1.3.0",
+      "name_zh": "猫耳"
+    },
+    {
+      "id": "tag-dog-ears",
+      "name": "dog ears",
+      "category_id": "cat-ears",
+      "model_families": [],
+      "description": "狗耳",
+      "version": "1.3.0",
+      "name_zh": "狗耳"
+    },
+    {
+      "id": "tag-fox-ears",
+      "name": "fox ears",
+      "category_id": "cat-ears",
+      "model_families": [],
+      "description": "狐耳",
+      "version": "1.3.0",
+      "name_zh": "狐耳"
+    },
+    {
+      "id": "tag-wolf-ears",
+      "name": "wolf ears",
+      "category_id": "cat-ears",
+      "model_families": [],
+      "description": "狼耳",
+      "version": "1.3.0",
+      "name_zh": "狼耳"
+    },
+    {
+      "id": "tag-rabbit-ears",
+      "name": "rabbit ears",
+      "category_id": "cat-ears",
+      "model_families": [],
+      "description": "兔耳",
+      "version": "1.3.0",
+      "name_zh": "兔耳"
+    },
+    {
+      "id": "tag-bear-ears",
+      "name": "bear ears",
+      "category_id": "cat-ears",
+      "model_families": [],
+      "description": "熊耳",
+      "version": "1.3.0",
+      "name_zh": "熊耳"
+    },
+    {
+      "id": "tag-tiger-ears",
+      "name": "tiger ears",
+      "category_id": "cat-ears",
+      "model_families": [],
+      "description": "虎耳",
+      "version": "1.3.0",
+      "name_zh": "虎耳"
+    },
+    {
+      "id": "tag-mouse-ears",
+      "name": "mouse ears",
+      "category_id": "cat-ears",
+      "model_families": [],
+      "description": "鼠耳",
+      "version": "1.3.0",
+      "name_zh": "鼠耳"
+    },
+    {
+      "id": "tag-fluffy-tail",
+      "name": "fluffy tail",
+      "category_id": "cat-tail",
+      "model_families": [],
+      "description": "蓬松尾巴",
+      "version": "1.3.0",
+      "name_zh": "蓬松尾巴"
+    },
+    {
+      "id": "tag-cat-tail",
+      "name": "cat tail",
+      "category_id": "cat-tail",
+      "model_families": [],
+      "description": "猫尾",
+      "version": "1.3.0",
+      "name_zh": "猫尾"
+    },
+    {
+      "id": "tag-fox-tail",
+      "name": "fox tail",
+      "category_id": "cat-tail",
+      "model_families": [],
+      "description": "狐尾",
+      "version": "1.3.0",
+      "name_zh": "狐尾"
+    },
+    {
+      "id": "tag-wolf-tail",
+      "name": "wolf tail",
+      "category_id": "cat-tail",
+      "model_families": [],
+      "description": "狼尾",
+      "version": "1.3.0",
+      "name_zh": "狼尾"
+    },
+    {
+      "id": "tag-dragon-tail",
+      "name": "dragon tail",
+      "category_id": "cat-tail",
+      "model_families": [],
+      "description": "龙尾",
+      "version": "1.3.0",
+      "name_zh": "龙尾"
+    },
+    {
+      "id": "tag-horns",
+      "name": "horns",
+      "category_id": "cat-horn",
+      "model_families": [],
+      "description": "角",
+      "version": "1.3.0",
+      "name_zh": "角"
+    },
+    {
+      "id": "tag-dragon-horns",
+      "name": "dragon horns",
+      "category_id": "cat-horn",
+      "model_families": [],
+      "description": "龙角",
+      "version": "1.3.0",
+      "name_zh": "龙角"
+    },
+    {
+      "id": "tag-single-horn",
+      "name": "single horn",
+      "category_id": "cat-horn",
+      "model_families": [],
+      "description": "独角",
+      "version": "1.3.0",
+      "name_zh": "独角"
+    },
+    {
+      "id": "tag-feathered-wings",
+      "name": "feathered wings",
+      "category_id": "cat-wing",
+      "model_families": [],
+      "description": "羽翼",
+      "version": "1.3.0",
+      "name_zh": "羽翼"
+    },
+    {
+      "id": "tag-bat-wings",
+      "name": "bat wings",
+      "category_id": "cat-wing",
+      "model_families": [],
+      "description": "蝠翼",
+      "version": "1.3.0",
+      "name_zh": "蝠翼"
+    },
+    {
+      "id": "tag-dragon-wings",
+      "name": "dragon wings",
+      "category_id": "cat-wing",
+      "model_families": [],
+      "description": "龙翼",
+      "version": "1.3.0",
+      "name_zh": "龙翼"
+    },
+    {
+      "id": "tag-umbrella",
+      "name": "umbrella",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "伞",
+      "version": "1.3.0",
+      "name_zh": "伞"
+    },
+    {
+      "id": "tag-sword",
+      "name": "sword",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "剑",
+      "version": "1.3.0",
+      "name_zh": "剑"
+    },
+    {
+      "id": "tag-book",
+      "name": "book",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "书",
+      "version": "1.3.0",
+      "name_zh": "书"
+    },
+    {
+      "id": "tag-cup",
+      "name": "cup",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "杯子",
+      "version": "1.3.0",
+      "name_zh": "杯子"
+    },
+    {
+      "id": "tag-camera",
+      "name": "camera",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "相机",
+      "version": "1.3.0",
+      "name_zh": "相机"
+    },
+    {
+      "id": "tag-headphones",
+      "name": "headphones",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "耳机",
+      "version": "1.3.0",
+      "name_zh": "耳机"
+    },
+    {
+      "id": "tag-artist-milk-anima",
+      "name": "@//milk/",
+      "category_id": "cat-artist",
+      "model_families": [
+        "anima"
+      ],
+      "description": "Anima 底模召唤写法（示例，待你确认）",
+      "version": "1.3.0",
+      "name_zh": "Anima 底模召唤写法（示例，待你确认）"
+    },
+    {
+      "id": "tag-angry",
+      "name": "angry",
+      "name_zh": "生气",
+      "category_id": "cat-expression",
+      "model_families": [],
+      "description": "生气",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-sad",
+      "name": "sad",
+      "name_zh": "难过",
+      "category_id": "cat-expression",
+      "model_families": [],
+      "description": "难过",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-laughing",
+      "name": "laughing",
+      "name_zh": "大笑",
+      "category_id": "cat-expression",
+      "model_families": [],
+      "description": "大笑",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-wink",
+      "name": "wink",
+      "name_zh": "眨眼",
+      "category_id": "cat-expression",
+      "model_families": [],
+      "description": "眨眼",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-pout",
+      "name": "pout",
+      "name_zh": "撅嘴",
+      "category_id": "cat-expression",
+      "model_families": [],
+      "description": "撅嘴",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-calm",
+      "name": "calm",
+      "name_zh": "平静",
+      "category_id": "cat-expression",
+      "model_families": [],
+      "description": "平静",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-shocked",
+      "name": "shocked",
+      "name_zh": "震惊",
+      "category_id": "cat-expression",
+      "model_families": [],
+      "description": "震惊",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-yawning",
+      "name": "yawning",
+      "name_zh": "打哈欠",
+      "category_id": "cat-expression",
+      "model_families": [],
+      "description": "打哈欠",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-teary-eyes",
+      "name": "teary eyes",
+      "name_zh": "泪眼",
+      "category_id": "cat-expression",
+      "model_families": [],
+      "description": "泪眼",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-purple-eyes",
+      "name": "purple eyes",
+      "name_zh": "紫瞳",
+      "category_id": "cat-eyes",
+      "model_families": [],
+      "description": "紫瞳",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-pink-eyes",
+      "name": "pink eyes",
+      "name_zh": "粉瞳",
+      "category_id": "cat-eyes",
+      "model_families": [],
+      "description": "粉瞳",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-amber-eyes",
+      "name": "amber eyes",
+      "name_zh": "琥珀瞳",
+      "category_id": "cat-eyes",
+      "model_families": [],
+      "description": "琥珀瞳",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-grey-eyes",
+      "name": "grey eyes",
+      "name_zh": "灰瞳",
+      "category_id": "cat-eyes",
+      "model_families": [],
+      "description": "灰瞳",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-sharp-eyes",
+      "name": "sharp eyes",
+      "name_zh": "锐利眼神",
+      "category_id": "cat-eyes",
+      "model_families": [],
+      "description": "锐利眼神",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-half-closed-eyes",
+      "name": "half-closed eyes",
+      "name_zh": "半眯眼",
+      "category_id": "cat-eyes",
+      "model_families": [],
+      "description": "半眯眼",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-glowing-eyes",
+      "name": "glowing eyes",
+      "name_zh": "发光眼",
+      "category_id": "cat-eyes",
+      "model_families": [],
+      "description": "发光眼",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-red-hair",
+      "name": "red hair",
+      "name_zh": "红发",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "红发",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-pink-hair",
+      "name": "pink hair",
+      "name_zh": "粉发",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "粉发",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-purple-hair",
+      "name": "purple hair",
+      "name_zh": "紫发",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "紫发",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-green-hair",
+      "name": "green hair",
+      "name_zh": "绿发",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "绿发",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-grey-hair",
+      "name": "grey hair",
+      "name_zh": "灰发",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "灰发",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-silver-hair",
+      "name": "silver hair",
+      "name_zh": "银发",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "银发",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-brown-hair",
+      "name": "brown hair",
+      "name_zh": "棕发",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "棕发",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-orange-hair",
+      "name": "orange hair",
+      "name_zh": "橙发",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "橙发",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-twintails",
+      "name": "twintails",
+      "name_zh": "双马尾",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "双马尾",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-braid",
+      "name": "braid",
+      "name_zh": "辫子",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "辫子",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-bob-cut",
+      "name": "bob cut",
+      "name_zh": "波波头",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "波波头",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-bangs",
+      "name": "bangs",
+      "name_zh": "刘海",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "刘海",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-ahoge",
+      "name": "ahoge",
+      "name_zh": "呆毛",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "呆毛",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-messy-hair",
+      "name": "messy hair",
+      "name_zh": "乱发",
+      "category_id": "cat-hair",
+      "model_families": [],
+      "description": "乱发",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-nurse",
+      "name": "nurse",
+      "name_zh": "护士",
+      "category_id": "cat-role",
+      "model_families": [],
+      "description": "护士",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-teacher",
+      "name": "teacher",
+      "name_zh": "老师",
+      "category_id": "cat-role",
+      "model_families": [],
+      "description": "老师",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-student",
+      "name": "student",
+      "name_zh": "学生",
+      "category_id": "cat-role",
+      "model_families": [],
+      "description": "学生",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-witch",
+      "name": "witch",
+      "name_zh": "女巫",
+      "category_id": "cat-role",
+      "model_families": [],
+      "description": "女巫",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-ninja",
+      "name": "ninja",
+      "name_zh": "忍者",
+      "category_id": "cat-role",
+      "model_families": [],
+      "description": "忍者",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-samurai",
+      "name": "samurai",
+      "name_zh": "武士",
+      "category_id": "cat-role",
+      "model_families": [],
+      "description": "武士",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-angel",
+      "name": "angel",
+      "name_zh": "天使",
+      "category_id": "cat-role",
+      "model_families": [],
+      "description": "天使",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-demon",
+      "name": "demon",
+      "name_zh": "恶魔",
+      "category_id": "cat-role",
+      "model_families": [],
+      "description": "恶魔",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-pirate",
+      "name": "pirate",
+      "name_zh": "海盗",
+      "category_id": "cat-role",
+      "model_families": [],
+      "description": "海盗",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-chef",
+      "name": "chef",
+      "name_zh": "厨师",
+      "category_id": "cat-role",
+      "model_families": [],
+      "description": "厨师",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-shirt",
+      "name": "shirt",
+      "name_zh": "衬衫",
+      "category_id": "cat-outfit",
+      "model_families": [],
+      "description": "衬衫",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-socks",
+      "name": "socks",
+      "name_zh": "袜子",
+      "category_id": "cat-outfit",
+      "model_families": [],
+      "description": "袜子",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-shoes",
+      "name": "shoes",
+      "name_zh": "鞋子",
+      "category_id": "cat-outfit",
+      "model_families": [],
+      "description": "鞋子",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-boots",
+      "name": "boots",
+      "name_zh": "靴子",
+      "category_id": "cat-outfit",
+      "model_families": [],
+      "description": "靴子",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-gloves",
+      "name": "gloves",
+      "name_zh": "手套",
+      "category_id": "cat-outfit",
+      "model_families": [],
+      "description": "手套",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-cape",
+      "name": "cape",
+      "name_zh": "披风",
+      "category_id": "cat-outfit",
+      "model_families": [],
+      "description": "披风",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-apron",
+      "name": "apron",
+      "name_zh": "围裙",
+      "category_id": "cat-outfit",
+      "model_families": [],
+      "description": "围裙",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-uniform",
+      "name": "uniform",
+      "name_zh": "制服",
+      "category_id": "cat-outfit",
+      "model_families": [],
+      "description": "制服",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-bikini",
+      "name": "bikini",
+      "name_zh": "比基尼",
+      "category_id": "cat-outfit",
+      "model_families": [],
+      "description": "比基尼",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-vest",
+      "name": "vest",
+      "name_zh": "马甲",
+      "category_id": "cat-outfit",
+      "model_families": [],
+      "description": "马甲",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-robe",
+      "name": "robe",
+      "name_zh": "长袍",
+      "category_id": "cat-outfit",
+      "model_families": [],
+      "description": "长袍",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-ribbon",
+      "name": "ribbon",
+      "name_zh": "缎带",
+      "category_id": "cat-accessory",
+      "model_families": [],
+      "description": "缎带",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-bracelet",
+      "name": "bracelet",
+      "name_zh": "手环",
+      "category_id": "cat-accessory",
+      "model_families": [],
+      "description": "手环",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-piercing",
+      "name": "piercing",
+      "name_zh": "耳钉",
+      "category_id": "cat-accessory",
+      "model_families": [],
+      "description": "耳钉",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-kneeling",
+      "name": "kneeling",
+      "name_zh": "跪姿",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "跪姿",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-squatting",
+      "name": "squatting",
+      "name_zh": "蹲姿",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "蹲姿",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-stretching",
+      "name": "stretching",
+      "name_zh": "伸展",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "伸展",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-waving",
+      "name": "waving",
+      "name_zh": "挥手",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "挥手",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-pointing",
+      "name": "pointing",
+      "name_zh": "指向",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "指向",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-hugging",
+      "name": "hugging",
+      "name_zh": "拥抱",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "拥抱",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-leaning",
+      "name": "leaning",
+      "name_zh": "倚靠",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "倚靠",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-dancing",
+      "name": "dancing",
+      "name_zh": "跳舞",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "跳舞",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-sleeping",
+      "name": "sleeping",
+      "name_zh": "睡觉",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "睡觉",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-hand-on-hip",
+      "name": "hand on hip",
+      "name_zh": "单手叉腰",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "单手叉腰",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-sea",
+      "name": "sea",
+      "name_zh": "海",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "海",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-lake",
+      "name": "lake",
+      "name_zh": "湖",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "湖",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-river",
+      "name": "river",
+      "name_zh": "河",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "河",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-cave",
+      "name": "cave",
+      "name_zh": "洞穴",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "洞穴",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-cloud",
+      "name": "cloud",
+      "name_zh": "云",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "云",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-rain",
+      "name": "rain",
+      "name_zh": "雨",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "雨",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-fog",
+      "name": "fog",
+      "name_zh": "雾",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "雾",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-thunderstorm",
+      "name": "thunderstorm",
+      "name_zh": "雷雨",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "雷雨",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-garden",
+      "name": "garden",
+      "name_zh": "花园",
+      "category_id": "cat-scene-outdoor",
+      "model_families": [],
+      "description": "花园",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-balcony",
+      "name": "balcony",
+      "name_zh": "阳台",
+      "category_id": "cat-scene-outdoor",
+      "model_families": [],
+      "description": "阳台",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-school",
+      "name": "school",
+      "name_zh": "学校",
+      "category_id": "cat-scene-outdoor",
+      "model_families": [],
+      "description": "学校",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-kitchen",
+      "name": "kitchen",
+      "name_zh": "厨房",
+      "category_id": "cat-scene-indoor",
+      "model_families": [],
+      "description": "厨房",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-office",
+      "name": "office",
+      "name_zh": "办公室",
+      "category_id": "cat-scene-indoor",
+      "model_families": [],
+      "description": "办公室",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-mansion",
+      "name": "mansion",
+      "name_zh": "宅邸",
+      "category_id": "cat-scene-indoor",
+      "model_families": [],
+      "description": "宅邸",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-hallway",
+      "name": "hallway",
+      "name_zh": "走廊",
+      "category_id": "cat-scene-indoor",
+      "model_families": [],
+      "description": "走廊",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-stairs",
+      "name": "stairs",
+      "name_zh": "楼梯",
+      "category_id": "cat-scene-indoor",
+      "model_families": [],
+      "description": "楼梯",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-window",
+      "name": "window",
+      "name_zh": "窗",
+      "category_id": "cat-scene-indoor",
+      "model_families": [],
+      "description": "窗",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-door",
+      "name": "door",
+      "name_zh": "门",
+      "category_id": "cat-scene-indoor",
+      "model_families": [],
+      "description": "门",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-phone",
+      "name": "phone",
+      "name_zh": "手机",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "手机",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-bag",
+      "name": "bag",
+      "name_zh": "包",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "包",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-flower",
+      "name": "flower",
+      "name_zh": "花",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "花",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-food",
+      "name": "food",
+      "name_zh": "食物",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "食物",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-drink",
+      "name": "drink",
+      "name_zh": "饮料",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "饮料",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-guitar",
+      "name": "guitar",
+      "name_zh": "吉他",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "吉他",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-gun",
+      "name": "gun",
+      "name_zh": "枪",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "枪",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-staff",
+      "name": "staff",
+      "name_zh": "法杖",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "法杖",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-shield",
+      "name": "shield",
+      "name_zh": "盾",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "盾",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-wand",
+      "name": "wand",
+      "name_zh": "魔杖",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "魔杖",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-bell",
+      "name": "bell",
+      "name_zh": "铃",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "铃",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-gouache",
+      "name": "gouache",
+      "name_zh": "水粉",
+      "category_id": "cat-art-tech",
+      "model_families": [],
+      "description": "水粉",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-crayon",
+      "name": "crayon",
+      "name_zh": "蜡笔",
+      "category_id": "cat-art-tech",
+      "model_families": [],
+      "description": "蜡笔",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-charcoal",
+      "name": "charcoal",
+      "name_zh": "炭笔",
+      "category_id": "cat-art-tech",
+      "model_families": [],
+      "description": "炭笔",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-doodle",
+      "name": "doodle",
+      "name_zh": "涂鸦",
+      "category_id": "cat-art-tech",
+      "model_families": [],
+      "description": "涂鸦",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-mosaic",
+      "name": "mosaic",
+      "name_zh": "马赛克",
+      "category_id": "cat-art-tech",
+      "model_families": [],
+      "description": "马赛克",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-detailed",
+      "name": "detailed",
+      "name_zh": "细节丰富",
+      "category_id": "cat-quality",
+      "model_families": [],
+      "description": "细节丰富",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-vivid",
+      "name": "vivid",
+      "name_zh": "鲜艳",
+      "category_id": "cat-quality",
+      "model_families": [],
+      "description": "鲜艳",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-clean",
+      "name": "clean",
+      "name_zh": "干净",
+      "category_id": "cat-quality",
+      "model_families": [],
+      "description": "干净",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-smooth",
+      "name": "smooth",
+      "name_zh": "平滑",
+      "category_id": "cat-quality",
+      "model_families": [],
+      "description": "平滑",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-cat",
+      "name": "cat",
+      "name_zh": "猫",
+      "category_id": "cat-animal",
+      "model_families": [],
+      "description": "猫",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-dog",
+      "name": "dog",
+      "name_zh": "狗",
+      "category_id": "cat-animal",
+      "model_families": [],
+      "description": "狗",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-fox",
+      "name": "fox",
+      "name_zh": "狐狸",
+      "category_id": "cat-animal",
+      "model_families": [],
+      "description": "狐狸",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-wolf",
+      "name": "wolf",
+      "name_zh": "狼",
+      "category_id": "cat-animal",
+      "model_families": [],
+      "description": "狼",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-tiger",
+      "name": "tiger",
+      "name_zh": "老虎",
+      "category_id": "cat-animal",
+      "model_families": [],
+      "description": "老虎",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-lion",
+      "name": "lion",
+      "name_zh": "狮子",
+      "category_id": "cat-animal",
+      "model_families": [],
+      "description": "狮子",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-rabbit",
+      "name": "rabbit",
+      "name_zh": "兔子",
+      "category_id": "cat-animal",
+      "model_families": [],
+      "description": "兔子",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-bear",
+      "name": "bear",
+      "name_zh": "熊",
+      "category_id": "cat-animal",
+      "model_families": [],
+      "description": "熊",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-dragon",
+      "name": "dragon",
+      "name_zh": "龙",
+      "category_id": "cat-animal",
+      "model_families": [],
+      "description": "龙",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-shark",
+      "name": "shark",
+      "name_zh": "鲨鱼",
+      "category_id": "cat-animal",
+      "model_families": [],
+      "description": "鲨鱼",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-deer",
+      "name": "deer",
+      "name_zh": "鹿",
+      "category_id": "cat-animal",
+      "model_families": [],
+      "description": "鹿",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-horse",
+      "name": "horse",
+      "name_zh": "马",
+      "category_id": "cat-animal",
+      "model_families": [],
+      "description": "马",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-bird",
+      "name": "bird",
+      "name_zh": "鸟",
+      "category_id": "cat-animal",
+      "model_families": [],
+      "description": "鸟",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-mouse",
+      "name": "mouse",
+      "name_zh": "老鼠",
+      "category_id": "cat-animal",
+      "model_families": [],
+      "description": "老鼠",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-fangs",
+      "name": "fangs",
+      "name_zh": "獠牙",
+      "category_id": "cat-body",
+      "model_families": [],
+      "description": "獠牙",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-claws",
+      "name": "claws",
+      "name_zh": "爪子",
+      "category_id": "cat-body",
+      "model_families": [],
+      "description": "爪子",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-paws",
+      "name": "paws",
+      "name_zh": "兽爪",
+      "category_id": "cat-body",
+      "model_families": [],
+      "description": "兽爪",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-pawpads",
+      "name": "pawpads",
+      "name_zh": "肉垫",
+      "category_id": "cat-body",
+      "model_families": [],
+      "description": "肉垫",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-fur",
+      "name": "fur",
+      "name_zh": "毛发",
+      "category_id": "cat-body",
+      "model_families": [],
+      "description": "毛发",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-scales",
+      "name": "scales",
+      "name_zh": "鳞片",
+      "category_id": "cat-body",
+      "model_families": [],
+      "description": "鳞片",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-muzzle",
+      "name": "muzzle",
+      "name_zh": "口鼻",
+      "category_id": "cat-body",
+      "model_families": [],
+      "description": "口鼻",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-snout",
+      "name": "snout",
+      "name_zh": "吻部",
+      "category_id": "cat-body",
+      "model_families": [],
+      "description": "吻部",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-fluffy",
+      "name": "fluffy",
+      "name_zh": "蓬松",
+      "category_id": "cat-body",
+      "model_families": [],
+      "description": "蓬松",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-tail",
+      "name": "tail",
+      "name_zh": "尾巴",
+      "category_id": "cat-body",
+      "model_families": [],
+      "description": "尾巴",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-ears",
+      "name": "ears",
+      "name_zh": "耳朵",
+      "category_id": "cat-body",
+      "model_families": [],
+      "description": "耳朵",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-red",
+      "name": "red",
+      "name_zh": "红",
+      "category_id": "cat-color",
+      "model_families": [],
+      "description": "红",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-blue",
+      "name": "blue",
+      "name_zh": "蓝",
+      "category_id": "cat-color",
+      "model_families": [],
+      "description": "蓝",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-pink",
+      "name": "pink",
+      "name_zh": "粉",
+      "category_id": "cat-color",
+      "model_families": [],
+      "description": "粉",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-purple",
+      "name": "purple",
+      "name_zh": "紫",
+      "category_id": "cat-color",
+      "model_families": [],
+      "description": "紫",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-green",
+      "name": "green",
+      "name_zh": "绿",
+      "category_id": "cat-color",
+      "model_families": [],
+      "description": "绿",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-yellow",
+      "name": "yellow",
+      "name_zh": "黄",
+      "category_id": "cat-color",
+      "model_families": [],
+      "description": "黄",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-orange",
+      "name": "orange",
+      "name_zh": "橙",
+      "category_id": "cat-color",
+      "model_families": [],
+      "description": "橙",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-black",
+      "name": "black",
+      "name_zh": "黑",
+      "category_id": "cat-color",
+      "model_families": [],
+      "description": "黑",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-white",
+      "name": "white",
+      "name_zh": "白",
+      "category_id": "cat-color",
+      "model_families": [],
+      "description": "白",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-silver",
+      "name": "silver",
+      "name_zh": "银",
+      "category_id": "cat-color",
+      "model_families": [],
+      "description": "银",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-gold",
+      "name": "gold",
+      "name_zh": "金",
+      "category_id": "cat-color",
+      "model_families": [],
+      "description": "金",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-brown",
+      "name": "brown",
+      "name_zh": "棕",
+      "category_id": "cat-color",
+      "model_families": [],
+      "description": "棕",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-grey",
+      "name": "grey",
+      "name_zh": "灰",
+      "category_id": "cat-color",
+      "model_families": [],
+      "description": "灰",
+      "version": "1.3.0"
+    },
+    {
+      "id": "tag-impasto",
+      "name": "impasto",
+      "name_zh": "厚涂",
+      "category_id": "cat-light",
+      "model_families": [],
+      "description": "厚涂",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-praying",
+      "name": "praying",
+      "name_zh": "祈祷",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "祈祷",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-reading",
+      "name": "reading",
+      "name_zh": "阅读",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "阅读",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-eating",
+      "name": "eating",
+      "name_zh": "吃饭",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "吃饭",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-drinking",
+      "name": "drinking",
+      "name_zh": "喝饮料",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "喝饮料",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-singing",
+      "name": "singing",
+      "name_zh": "唱歌",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "唱歌",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-swimming",
+      "name": "swimming",
+      "name_zh": "游泳",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "游泳",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-cooking",
+      "name": "cooking",
+      "name_zh": "料理",
+      "category_id": "cat-pose",
+      "model_families": [],
+      "description": "料理",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-fireworks",
+      "name": "fireworks",
+      "name_zh": "烟花",
+      "category_id": "cat-scene-outdoor",
+      "model_families": [],
+      "description": "烟花",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-pool",
+      "name": "pool",
+      "name_zh": "游泳池",
+      "category_id": "cat-scene-indoor",
+      "model_families": [],
+      "description": "游泳池",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-onsen",
+      "name": "onsen",
+      "name_zh": "温泉",
+      "category_id": "cat-scene-indoor",
+      "model_families": [],
+      "description": "温泉",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-snowing",
+      "name": "snowing",
+      "name_zh": "下雪",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "下雪",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-space",
+      "name": "space",
+      "name_zh": "太空",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "太空",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-underwater",
+      "name": "underwater",
+      "name_zh": "水下",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "水下",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-mist",
+      "name": "mist",
+      "name_zh": "薄雾",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "薄雾",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-microphone",
+      "name": "microphone",
+      "name_zh": "麦克风",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "麦克风",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-gamepad",
+      "name": "gamepad",
+      "name_zh": "游戏手柄",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "游戏手柄",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-noodles",
+      "name": "noodles",
+      "name_zh": "拉面",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "拉面",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-skateboard",
+      "name": "skateboard",
+      "name_zh": "滑板",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "滑板",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-bicycle",
+      "name": "bicycle",
+      "name_zh": "自行车",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "自行车",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-motorcycle",
+      "name": "motorcycle",
+      "name_zh": "摩托车",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "摩托车",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-train",
+      "name": "train",
+      "name_zh": "火车",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "火车",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-fishing-rod",
+      "name": "fishing rod",
+      "name_zh": "钓竿",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "钓竿",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-piano",
+      "name": "piano",
+      "name_zh": "钢琴",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "钢琴",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-violin",
+      "name": "violin",
+      "name_zh": "小提琴",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "小提琴",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-towel",
+      "name": "towel",
+      "name_zh": "毛巾",
+      "category_id": "cat-outfit",
+      "model_families": [],
+      "description": "毛巾",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-steam",
+      "name": "steam",
+      "name_zh": "蒸汽",
+      "category_id": "cat-scene-indoor",
+      "model_families": [],
+      "description": "蒸汽",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-flashlight",
+      "name": "flashlight",
+      "name_zh": "手电筒",
+      "category_id": "cat-prop",
+      "model_families": [],
+      "description": "手电筒",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-splash",
+      "name": "splash",
+      "name_zh": "水花",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "水花",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-yukata",
+      "name": "yukata",
+      "name_zh": "浴衣",
+      "category_id": "cat-outfit",
+      "model_families": [],
+      "description": "浴衣",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-cyberpunk",
+      "name": "cyberpunk",
+      "name_zh": "赛博朋克",
+      "category_id": "cat-art-move",
+      "model_families": [],
+      "description": "赛博朋克",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-linocut",
+      "name": "linocut",
+      "name_zh": "版画",
+      "category_id": "cat-art-tech",
+      "model_families": [],
+      "description": "版画",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-choker",
+      "name": "choker",
+      "name_zh": "项圈",
+      "category_id": "cat-accessory",
+      "model_families": [],
+      "description": "项圈",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-crown",
+      "name": "crown",
+      "name_zh": "皇冠",
+      "category_id": "cat-accessory",
+      "model_families": [],
+      "description": "皇冠",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-mask",
+      "name": "mask",
+      "name_zh": "面具",
+      "category_id": "cat-accessory",
+      "model_families": [],
+      "description": "面具",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-shawl",
+      "name": "shawl",
+      "name_zh": "披肩",
+      "category_id": "cat-accessory",
+      "model_families": [],
+      "description": "披肩",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-convenience-store",
+      "name": "convenience store",
+      "name_zh": "便利店",
+      "category_id": "cat-scene-outdoor",
+      "model_families": [],
+      "description": "便利店",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-stained-glass",
+      "name": "stained glass",
+      "name_zh": "彩色玻璃窗",
+      "category_id": "cat-scene-building",
+      "model_families": [],
+      "description": "彩色玻璃窗",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-antlers",
+      "name": "antlers",
+      "name_zh": "鹿角",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "鹿角",
+      "version": "1.3.8"
+    },
+    {
+      "id": "tag-bubbles",
+      "name": "bubbles",
+      "name_zh": "气泡",
+      "category_id": "cat-scene-nature",
+      "model_families": [],
+      "description": "气泡",
+      "version": "1.3.8"
+    }
+  ]
+}

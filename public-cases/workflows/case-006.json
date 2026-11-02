@@ -1,0 +1,92 @@
+{
+  "3": {
+    "class_type": "KSampler",
+    "inputs": {
+      "seed": 424242,
+      "steps": 34,
+      "cfg": 5.0,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "karras",
+      "denoise": 1.0,
+      "model": [
+        "4",
+        0
+      ],
+      "positive": [
+        "6",
+        0
+      ],
+      "negative": [
+        "7",
+        0
+      ],
+      "latent_image": [
+        "5",
+        0
+      ]
+    }
+  },
+  "4": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "NoobAI-XL v1.1.safetensors"
+    }
+  },
+  "5": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 1216,
+      "height": 832,
+      "batch_size": 1
+    }
+  },
+  "6": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "masterpiece, best quality, highly detailed, 1girl, solo, upper body, library, bookshelf, sitting, reading, warm lighting, dust in the air, calm atmosphere, looking down",
+      "clip": [
+        "4",
+        1
+      ]
+    }
+  },
+  "7": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "lowres, bad hands, extra limbs, watermark, blurry, cluttered composition",
+      "clip": [
+        "4",
+        1
+      ]
+    }
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        2
+      ]
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "PromptForge/pf-case-006",
+      "images": [
+        "8",
+        0
+      ]
+    }
+  },
+  "_meta": {
+    "title": "图书馆的安静时刻",
+    "promptforge_case_id": "pf-case-006",
+    "note": "示例工作流（结构示例），未在真实 ComfyUI 环境验证。VAE 字段记录于案例元数据：noobai_vae（示例）",
+    "format": "comfyui-api"
+  }
+}

@@ -1,0 +1,2033 @@
+{
+  "schema": "promptforge.prompts/1",
+  "count": 63,
+  "items": [
+    {
+      "id": "pf-prompt-35",
+      "title": "猫兽人",
+      "positive": "cat, kemono, furry, anthro, 1boy, solo, standing, full body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-animal",
+        "cat-char",
+        "cat-pose"
+      ],
+      "tag_ids": [
+        "tag-cat",
+        "tag-kemono",
+        "tag-furry",
+        "tag-anthro",
+        "tag-1boy",
+        "tag-solo",
+        "tag-pose-stand",
+        "tag-comp-full",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-fur"
+      ],
+      "description": "猫系兽人通用底子，换服装就是新角色。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-36",
+      "title": "狗兽人",
+      "positive": "dog, kemono, furry, anthro, 1boy, solo, standing, smile, full body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-animal",
+        "cat-char",
+        "cat-expression"
+      ],
+      "tag_ids": [
+        "tag-dog",
+        "tag-kemono",
+        "tag-furry",
+        "tag-anthro",
+        "tag-1boy",
+        "tag-solo",
+        "tag-pose-stand",
+        "tag-exp-smile",
+        "tag-comp-full",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-fur"
+      ],
+      "description": "狗系偏活泼，加 playing 更顽皮。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-37",
+      "title": "狐狸兽人",
+      "positive": "fox, kemono, furry, anthro, 1boy, solo, standing, full body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-animal",
+        "cat-char"
+      ],
+      "tag_ids": [
+        "tag-fox",
+        "tag-kemono",
+        "tag-furry",
+        "tag-anthro",
+        "tag-1boy",
+        "tag-solo",
+        "tag-pose-stand",
+        "tag-comp-full",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-fur"
+      ],
+      "description": "狐狸配色偏橙白，加 orange fur 更明确。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-38",
+      "title": "狼兽人",
+      "positive": "wolf, kemono, furry, anthro, 1boy, solo, standing, serious, full body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-animal",
+        "cat-char",
+        "cat-expression"
+      ],
+      "tag_ids": [
+        "tag-wolf",
+        "tag-kemono",
+        "tag-furry",
+        "tag-anthro",
+        "tag-1boy",
+        "tag-solo",
+        "tag-pose-stand",
+        "tag-exp-serious",
+        "tag-comp-full",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-fur"
+      ],
+      "description": "狼系配 serious，比 smile 更贴气质。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-39",
+      "title": "虎兽人",
+      "positive": "tiger, kemono, furry, anthro, 1boy, solo, standing, full body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-animal",
+        "cat-char"
+      ],
+      "tag_ids": [
+        "tag-tiger",
+        "tag-kemono",
+        "tag-furry",
+        "tag-anthro",
+        "tag-1boy",
+        "tag-solo",
+        "tag-pose-stand",
+        "tag-comp-full",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-fur"
+      ],
+      "description": "条纹是识别重点，加 striped fur 更明确。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-40",
+      "title": "狮子兽人",
+      "positive": "lion, kemono, furry, anthro, 1boy, solo, standing, full body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-animal",
+        "cat-char"
+      ],
+      "tag_ids": [
+        "tag-lion",
+        "tag-kemono",
+        "tag-furry",
+        "tag-anthro",
+        "tag-1boy",
+        "tag-solo",
+        "tag-pose-stand",
+        "tag-comp-full",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-fur"
+      ],
+      "description": "鬃毛用 mane 描述，lion 本身带鬃毛特征。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-41",
+      "title": "兔子兽人",
+      "positive": "rabbit, kemono, furry, anthro, 1girl, solo, standing, blush, full body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-animal",
+        "cat-char",
+        "cat-expression"
+      ],
+      "tag_ids": [
+        "tag-rabbit",
+        "tag-kemono",
+        "tag-furry",
+        "tag-anthro",
+        "tag-1girl",
+        "tag-solo",
+        "tag-pose-stand",
+        "tag-exp-blush",
+        "tag-comp-full",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-fur"
+      ],
+      "description": "兔系配 blush 更可爱。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-42",
+      "title": "龙人",
+      "positive": "dragon, kemono, furry, anthro, 1boy, solo, horns, scales, tail, full body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-animal",
+        "cat-horn",
+        "cat-body"
+      ],
+      "tag_ids": [
+        "tag-dragon",
+        "tag-kemono",
+        "tag-furry",
+        "tag-anthro",
+        "tag-1boy",
+        "tag-solo",
+        "tag-horns",
+        "tag-scales",
+        "tag-tail",
+        "tag-comp-full",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-fur"
+      ],
+      "description": "龙人三件套：角 + 鳞 + 尾。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-43",
+      "title": "鲨鱼兽人",
+      "positive": "shark, kemono, furry, anthro, 1boy, solo, fangs, grin, full body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-animal",
+        "cat-body",
+        "cat-expression"
+      ],
+      "tag_ids": [
+        "tag-shark",
+        "tag-kemono",
+        "tag-furry",
+        "tag-anthro",
+        "tag-1boy",
+        "tag-solo",
+        "tag-fangs",
+        "tag-grin",
+        "tag-comp-full",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-fur"
+      ],
+      "description": "鲨鱼牙 + 咧嘴笑，凶得可爱。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-44",
+      "title": "鹿兽人",
+      "positive": "deer, kemono, furry, anthro, 1girl, solo, antlers, standing, full body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-animal",
+        "cat-horn"
+      ],
+      "tag_ids": [
+        "tag-deer",
+        "tag-kemono",
+        "tag-furry",
+        "tag-anthro",
+        "tag-1girl",
+        "tag-solo",
+        "tag-antlers",
+        "tag-pose-stand",
+        "tag-comp-full",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-fur"
+      ],
+      "description": "鹿角写 antlers，别用 horns。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-45",
+      "title": "马兽人",
+      "positive": "horse, kemono, furry, anthro, 1boy, solo, standing, full body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-animal",
+        "cat-char"
+      ],
+      "tag_ids": [
+        "tag-horse",
+        "tag-kemono",
+        "tag-furry",
+        "tag-anthro",
+        "tag-1boy",
+        "tag-solo",
+        "tag-pose-stand",
+        "tag-comp-full",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-fur"
+      ],
+      "description": "马系体型偏高大，加 tall 更贴。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-46",
+      "title": "鸟兽人",
+      "positive": "bird, kemono, furry, anthro, 1girl, solo, feathered wings, full body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-animal",
+        "cat-wing"
+      ],
+      "tag_ids": [
+        "tag-bird",
+        "tag-kemono",
+        "tag-furry",
+        "tag-anthro",
+        "tag-1girl",
+        "tag-solo",
+        "tag-feathered-wings",
+        "tag-comp-full",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-fur",
+        "tag-red"
+      ],
+      "description": "鸟系配羽翼，加 feathers 更明确。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-01",
+      "title": "通用质量前缀",
+      "positive": "masterpiece, best quality, highres, absurdres, ultra detailed, sharp focus",
+      "negative": "",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-quality"
+      ],
+      "tag_ids": [
+        "tag-quality-masterpiece",
+        "tag-quality-best",
+        "tag-highres",
+        "tag-q-absurdres",
+        "tag-ultra-detailed",
+        "tag-sharp-focus"
+      ],
+      "description": "所有正向提示词开头都可以挂这一串，超过 4 个质量词收益就开始递减。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-02",
+      "title": "通用负向基线",
+      "positive": "",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-negative"
+      ],
+      "tag_ids": [
+        "tag-neg-lowres",
+        "tag-bad-anatomy",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-signature",
+        "tag-text",
+        "tag-neg-blurry",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "负向的保底串。画面过锐时先去掉 blurry，不要整串删掉。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-03",
+      "title": "人像通用骨架",
+      "positive": "1girl, solo, upper body, looking at viewer, smile, soft lighting, depth of field",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-composition",
+        "cat-light",
+        "cat-expression",
+        "cat-char"
+      ],
+      "tag_ids": [
+        "tag-comp-upper",
+        "tag-exp-eyecontact",
+        "tag-exp-smile",
+        "tag-light-soft",
+        "tag-depth-of-field"
+      ],
+      "description": "半身像最稳的一组，先定景别和光线，再往里换服装与场景。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-04",
+      "title": "七分身仰角",
+      "positive": "1girl, solo, cowboy shot, from below, dynamic angle, bokeh",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-composition",
+        "cat-photo"
+      ],
+      "tag_ids": [
+        "tag-comp-cowboy",
+        "tag-from-below",
+        "tag-dynamic-angle",
+        "tag-bokeh"
+      ],
+      "description": "七分身 + 仰角，人物会显得更有压迫感，适合展示服装。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-05",
+      "title": "海滩度假",
+      "positive": "1girl, solo, beach, ocean, sky, sitting, hoodie, shorts, smile, looking at viewer",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-scene-nature",
+        "cat-outfit-top",
+        "cat-outfit-bottom",
+        "cat-pose",
+        "cat-expression"
+      ],
+      "tag_ids": [
+        "tag-beach",
+        "tag-ocean",
+        "tag-bg-sky",
+        "tag-pose-sit",
+        "tag-outfit-hoodie",
+        "tag-shorts",
+        "tag-exp-smile",
+        "tag-exp-eyecontact"
+      ],
+      "description": "白天海边，逆光不强烈时最稳。想更夏天把 hoodie 换成 tank top。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-06",
+      "title": "森林晨光",
+      "positive": "1girl, solo, forest, standing, god rays, soft lighting, looking at viewer",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-scene-nature",
+        "cat-light",
+        "cat-pose"
+      ],
+      "tag_ids": [
+        "tag-forest",
+        "tag-pose-stand",
+        "tag-god-rays",
+        "tag-light-soft",
+        "tag-exp-eyecontact"
+      ],
+      "description": "树缝透光的关键是 god rays，配 soft lighting 不会过曝。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-07",
+      "title": "城市夜景霓虹",
+      "positive": "1girl, solo, cityscape, street, night sky, neon signs, neon lights, looking at viewer",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-scene-city",
+        "cat-light",
+        "cat-background"
+      ],
+      "tag_ids": [
+        "tag-cityscape",
+        "tag-street",
+        "tag-night-sky",
+        "tag-neon-signs",
+        "tag-light-neon",
+        "tag-exp-eyecontact"
+      ],
+      "description": "夜景霓虹的高饱和容易糊，建议把 neon lights 放前面。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-08",
+      "title": "教室午后",
+      "positive": "1girl, solo, classroom, sitting, school uniform, soft lighting, blush, smile",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-scene-indoor",
+        "cat-outfit",
+        "cat-pose",
+        "cat-light",
+        "cat-expression"
+      ],
+      "tag_ids": [
+        "tag-classroom",
+        "tag-pose-sit",
+        "tag-outfit-school",
+        "tag-light-soft",
+        "tag-exp-blush",
+        "tag-exp-smile"
+      ],
+      "description": "教室 + 午后柔光，人物坐姿比站姿更自然。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-09",
+      "title": "咖啡厅角落",
+      "positive": "1girl, solo, cafe interior, sitting, cup, soft lighting, smile, looking at viewer",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-scene-indoor",
+        "cat-prop",
+        "cat-pose",
+        "cat-light"
+      ],
+      "tag_ids": [
+        "tag-cafe-interior",
+        "tag-pose-sit",
+        "tag-cup",
+        "tag-light-soft",
+        "tag-exp-smile",
+        "tag-exp-eyecontact"
+      ],
+      "description": "桌面道具只留一个杯子，画面会干净很多。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-10",
+      "title": "神社参道",
+      "positive": "1girl, solo, shrine, standing, forest, soft lighting, looking at viewer",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-scene-outdoor",
+        "cat-scene-nature",
+        "cat-pose"
+      ],
+      "tag_ids": [
+        "tag-shrine",
+        "tag-pose-stand",
+        "tag-forest",
+        "tag-light-soft",
+        "tag-exp-eyecontact"
+      ],
+      "description": "神社配森林背景，比单独写 shrine 更有纵深。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-11",
+      "title": "猫耳少女日常",
+      "positive": "1girl, solo, furry, kemono, cat ears, fluffy tail, smile, blush, upper body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-char",
+        "cat-ears",
+        "cat-tail",
+        "cat-expression"
+      ],
+      "tag_ids": [
+        "tag-1girl",
+        "tag-solo",
+        "tag-furry",
+        "tag-kemono",
+        "tag-cat-ears",
+        "tag-fluffy-tail",
+        "tag-exp-smile",
+        "tag-exp-blush",
+        "tag-comp-upper"
+      ],
+      "description": "兽人日常的通用底子，换耳朵种类就能换角色。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-12",
+      "title": "狐耳少年",
+      "positive": "1boy, solo, male focus, fox ears, fox tail, serious, upper body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-char",
+        "cat-ears",
+        "cat-tail",
+        "cat-expression"
+      ],
+      "tag_ids": [
+        "tag-1boy",
+        "tag-solo",
+        "tag-male-focus",
+        "tag-fox-ears",
+        "tag-fox-tail",
+        "tag-exp-serious",
+        "tag-comp-upper"
+      ],
+      "description": "狐耳 + 认真表情，男性角色比 1girl 稳。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-13",
+      "title": "狼耳少女",
+      "positive": "1girl, solo, wolf ears, wolf tail, serious, looking at viewer, upper body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-ears",
+        "cat-tail",
+        "cat-expression",
+        "cat-composition"
+      ],
+      "tag_ids": [
+        "tag-wolf-ears",
+        "tag-wolf-tail",
+        "tag-exp-serious",
+        "tag-exp-eyecontact",
+        "tag-comp-upper"
+      ],
+      "description": "狼耳偏冷峻，配 soft lighting 会变柔和，按需取舍。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-14",
+      "title": "Q 版兽人",
+      "positive": "chibi, kemono, 1boy, solo, blush, smile, simple background",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-art-form",
+        "cat-char",
+        "cat-expression"
+      ],
+      "tag_ids": [
+        "tag-chibi",
+        "tag-kemono",
+        "tag-1boy",
+        "tag-solo",
+        "tag-exp-blush",
+        "tag-exp-smile",
+        "tag-simple-background"
+      ],
+      "description": "Q 版要配 simple background，否则容易被背景抢焦点。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-15",
+      "title": "水彩兽人",
+      "positive": "watercolor, kemono, furry, 1girl, solo, soft lighting, upper body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-art-tech",
+        "cat-char",
+        "cat-light"
+      ],
+      "tag_ids": [
+        "tag-watercolor",
+        "tag-kemono",
+        "tag-furry",
+        "tag-1girl",
+        "tag-light-soft",
+        "tag-comp-upper"
+      ],
+      "description": "水彩质感配柔光最稳，加 monochrome 会变成单色水彩。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-16",
+      "title": "赛璐璐动漫",
+      "positive": "cel shading, anime, 1girl, solo, looking at viewer, upper body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-art-style",
+        "cat-char"
+      ],
+      "tag_ids": [
+        "tag-cel-shading",
+        "tag-anime",
+        "tag-1girl",
+        "tag-exp-eyecontact",
+        "tag-comp-upper"
+      ],
+      "description": "平涂赛璐璐，色块分明；配 highly detailed 会互相打架。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-17",
+      "title": "校服日常",
+      "positive": "1girl, solo, school uniform, standing, smile, classroom, blush",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-outfit",
+        "cat-pose",
+        "cat-expression",
+        "cat-scene-indoor"
+      ],
+      "tag_ids": [
+        "tag-outfit-school",
+        "tag-pose-stand",
+        "tag-exp-smile",
+        "tag-classroom",
+        "tag-exp-blush"
+      ],
+      "description": "最保险的校服组合，换场景只改一个词。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-18",
+      "title": "和服回眸",
+      "positive": "1girl, solo, kimono, looking back, soft lighting, upper body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-outfit",
+        "cat-pose",
+        "cat-light"
+      ],
+      "tag_ids": [
+        "tag-outfit-kimono",
+        "tag-pose-lookback",
+        "tag-light-soft",
+        "tag-comp-upper"
+      ],
+      "description": "和服要把花纹单独描述，否则容易退化成纯色。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-19",
+      "title": "电影感夜景",
+      "positive": "cinematic lighting, rim light, night sky, cityscape, profile, depth of field",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-light",
+        "cat-scene-city",
+        "cat-photo"
+      ],
+      "tag_ids": [
+        "tag-cinematic-lighting",
+        "tag-rim-light",
+        "tag-night-sky",
+        "tag-cityscape",
+        "tag-profile",
+        "tag-depth-of-field"
+      ],
+      "description": "轮廓光 + 侧脸，人物边缘会亮起来，适合做封面。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-20",
+      "title": "像素风",
+      "positive": "pixel art, 1girl, solo, simple background, full body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-art-style",
+        "cat-background"
+      ],
+      "tag_ids": [
+        "tag-pixel-art",
+        "tag-1girl",
+        "tag-simple-background",
+        "tag-comp-full"
+      ],
+      "description": "像素风要加 simple background，否则像素颗粒会被背景吃掉。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-21",
+      "title": "油画肖像",
+      "positive": "oil painting, portrait, serious, studio light, upper body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-art-tech",
+        "cat-composition",
+        "cat-light"
+      ],
+      "tag_ids": [
+        "tag-oil-painting",
+        "tag-portrait",
+        "tag-exp-serious",
+        "tag-studio-light",
+        "tag-comp-upper"
+      ],
+      "description": "油画质感配棚拍灯，脸部明暗会更立体。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-22",
+      "title": "胶片复古",
+      "positive": "film grain, vintage, 1girl, smile, soft lighting, upper body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-art-media",
+        "cat-light"
+      ],
+      "tag_ids": [
+        "tag-film-grain",
+        "tag-vintage",
+        "tag-exp-smile",
+        "tag-light-soft",
+        "tag-comp-upper"
+      ],
+      "description": "胶片颗粒 + 复古色调，注意别和 neon lights 同用。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-23",
+      "title": "兽人全身设定",
+      "positive": "full body, standing, kemono, furry, 1boy, fluffy tail, white background",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-composition",
+        "cat-char",
+        "cat-tail",
+        "cat-background"
+      ],
+      "tag_ids": [
+        "tag-comp-full",
+        "tag-pose-stand",
+        "tag-kemono",
+        "tag-furry",
+        "tag-1boy",
+        "tag-fluffy-tail",
+        "tag-white-background"
+      ],
+      "description": "做角色设定图用白底全身，方便后期抠图。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-24",
+      "title": "猫耳表情组合",
+      "positive": "cat ears, grin, blush, upper body, looking at viewer",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-ears",
+        "cat-expression",
+        "cat-composition"
+      ],
+      "tag_ids": [
+        "tag-cat-ears",
+        "tag-grin",
+        "tag-exp-blush",
+        "tag-comp-upper",
+        "tag-exp-eyecontact"
+      ],
+      "description": "同一个人物换表情时，只改 grin / embarrassed / sleepy。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-25",
+      "title": "雨天便利店",
+      "positive": "1girl, solo, convenience store, night, rain, window, soft lighting, looking at viewer",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-scene-outdoor",
+        "cat-light"
+      ],
+      "tag_ids": [
+        "tag-1girl",
+        "tag-solo",
+        "tag-convenience-store",
+        "tag-bg-night",
+        "tag-rain",
+        "tag-window",
+        "tag-light-soft",
+        "tag-exp-eyecontact",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "雨夜玻璃反光是重点，加 reflections on wet ground 会更湿。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-26",
+      "title": "图书馆自习",
+      "positive": "1boy, solo, library, reading, book, sitting, soft lighting, calm",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-scene-indoor",
+        "cat-prop",
+        "cat-pose",
+        "cat-light",
+        "cat-expression"
+      ],
+      "tag_ids": [
+        "tag-1boy",
+        "tag-solo",
+        "tag-library",
+        "tag-reading",
+        "tag-book",
+        "tag-pose-sit",
+        "tag-light-soft",
+        "tag-calm",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "安静氛围，配 calm 比微笑更贴。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-27",
+      "title": "温泉小憩",
+      "positive": "1girl, solo, onsen, steam, towel, blush, smile",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-scene-indoor",
+        "cat-outfit",
+        "cat-expression"
+      ],
+      "tag_ids": [
+        "tag-1girl",
+        "tag-solo",
+        "tag-onsen",
+        "tag-steam",
+        "tag-towel",
+        "tag-exp-blush",
+        "tag-exp-smile",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "温泉的蒸汽用 steam，别写成 fog。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-28",
+      "title": "废墟探险",
+      "positive": "1boy, solo, ruins, standing, flashlight, serious, depth of field",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-scene-building",
+        "cat-prop",
+        "cat-expression"
+      ],
+      "tag_ids": [
+        "tag-1boy",
+        "tag-solo",
+        "tag-ruins",
+        "tag-pose-stand",
+        "tag-flashlight",
+        "tag-exp-serious",
+        "tag-depth-of-field",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "手电光 + 景深，废墟氛围立刻出来。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-29",
+      "title": "雪山之巅",
+      "positive": "1boy, solo, snowing, mountain, winter, coat, serious, full body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-scene-nature",
+        "cat-outfit-top",
+        "cat-expression",
+        "cat-composition"
+      ],
+      "tag_ids": [
+        "tag-1boy",
+        "tag-solo",
+        "tag-snowing",
+        "tag-mountain",
+        "tag-coat",
+        "tag-exp-serious",
+        "tag-comp-full",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-snow"
+      ],
+      "description": "下雪用 snowing，雪地用 snow。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-30",
+      "title": "厨房料理",
+      "positive": "1girl, solo, kitchen, cooking, apron, smile, warm lighting",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-scene-indoor",
+        "cat-pose",
+        "cat-outfit",
+        "cat-light"
+      ],
+      "tag_ids": [
+        "tag-1girl",
+        "tag-solo",
+        "tag-kitchen",
+        "tag-cooking",
+        "tag-apron",
+        "tag-exp-smile",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "暖色光 + 围裙，生活感立刻有。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-31",
+      "title": "游泳池边",
+      "positive": "1girl, solo, pool, swimming, swimsuit, arms up, splash",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-scene-outdoor",
+        "cat-outfit",
+        "cat-pose"
+      ],
+      "tag_ids": [
+        "tag-1girl",
+        "tag-solo",
+        "tag-pool",
+        "tag-swimming",
+        "tag-swimsuit",
+        "tag-pose-armsup",
+        "tag-splash",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-suit"
+      ],
+      "description": "水花用 splash，比 water 更有动感。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-32",
+      "title": "烟花大会",
+      "positive": "1girl, solo, yukata, fireworks, night, sky, looking at viewer, smile",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-scene-outdoor",
+        "cat-outfit",
+        "cat-expression"
+      ],
+      "tag_ids": [
+        "tag-1girl",
+        "tag-solo",
+        "tag-yukata",
+        "tag-fireworks",
+        "tag-bg-night",
+        "tag-bg-sky",
+        "tag-exp-eyecontact",
+        "tag-exp-smile",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "浴衣 yukata，不要写成 kimono。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-33",
+      "title": "太空舱",
+      "positive": "1boy, solo, space, window, sitting, serious, blue lighting",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-scene-indoor",
+        "cat-light",
+        "cat-expression"
+      ],
+      "tag_ids": [
+        "tag-1boy",
+        "tag-solo",
+        "tag-space",
+        "tag-window",
+        "tag-pose-sit",
+        "tag-exp-serious",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-blue"
+      ],
+      "description": "太空场景配冷色光，加 stars 更空旷。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-34",
+      "title": "水下世界",
+      "positive": "1girl, solo, underwater, swimming, bubbles, closed eyes",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-scene-nature",
+        "cat-pose",
+        "cat-expression"
+      ],
+      "tag_ids": [
+        "tag-1girl",
+        "tag-solo",
+        "tag-underwater",
+        "tag-swimming",
+        "tag-bubbles",
+        "tag-closed-eyes",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "水下闭眼 + 气泡，氛围感很强。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-47",
+      "title": "厚涂兽人",
+      "positive": "impasto, furry, kemono, 1boy, portrait, serious, studio light",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-light",
+        "cat-art-tech",
+        "cat-char"
+      ],
+      "tag_ids": [
+        "tag-impasto",
+        "tag-furry",
+        "tag-kemono",
+        "tag-1boy",
+        "tag-portrait",
+        "tag-exp-serious",
+        "tag-studio-light",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-fur"
+      ],
+      "description": "厚涂笔触明显，配棚拍灯立体感更强。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-48",
+      "title": "水墨山水",
+      "positive": "ink wash, mountain, fog, wide shot, monochrome",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-art-tech",
+        "cat-scene-nature",
+        "cat-photo"
+      ],
+      "tag_ids": [
+        "tag-ink-wash",
+        "tag-mountain",
+        "tag-fog",
+        "tag-wide-shot",
+        "tag-style-monochrome",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "水墨留白是关键，别加太多细节词。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-49",
+      "title": "水粉少女",
+      "positive": "gouache, 1girl, soft lighting, pastel, upper body, smile",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-art-tech",
+        "cat-light"
+      ],
+      "tag_ids": [
+        "tag-gouache",
+        "tag-1girl",
+        "tag-light-soft",
+        "tag-pastel",
+        "tag-comp-upper",
+        "tag-exp-smile",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "水粉比水彩更厚重，适合暖色。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-50",
+      "title": "炭笔速写",
+      "positive": "charcoal, sketch, monochrome, 1girl, upper body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-art-tech",
+        "cat-composition"
+      ],
+      "tag_ids": [
+        "tag-charcoal",
+        "tag-sketch",
+        "tag-style-monochrome",
+        "tag-1girl",
+        "tag-comp-upper",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "炭笔速写保留 sketch，配 monochrome 出黑白。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-51",
+      "title": "粉彩猫耳",
+      "positive": "pastel, cat ears, kemono, 1girl, soft lighting, blush",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-art-tech",
+        "cat-ears",
+        "cat-light"
+      ],
+      "tag_ids": [
+        "tag-pastel",
+        "tag-cat-ears",
+        "tag-kemono",
+        "tag-1girl",
+        "tag-light-soft",
+        "tag-exp-blush",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-cat",
+        "tag-ears"
+      ],
+      "description": "粉彩配猫耳，颜色本身已经是风格。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-52",
+      "title": "彩色玻璃窗",
+      "positive": "stained glass, window, silhouette, upper body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-art-media",
+        "cat-scene-indoor",
+        "cat-light"
+      ],
+      "tag_ids": [
+        "tag-stained-glass",
+        "tag-window",
+        "tag-comp-upper",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "剪影 + 彩窗，光从背后打。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-53",
+      "title": "版画风格",
+      "positive": "linocut, monochrome, 1boy, upper body, profile",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-art-tech",
+        "cat-composition"
+      ],
+      "tag_ids": [
+        "tag-linocut",
+        "tag-style-monochrome",
+        "tag-1boy",
+        "tag-comp-upper",
+        "tag-profile",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "版画线条硬朗，配侧脸更有力量。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-54",
+      "title": "赛博朋克夜城",
+      "positive": "cyberpunk, cityscape, neon lights, night, rain, looking at viewer",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-art-move",
+        "cat-scene-city",
+        "cat-light"
+      ],
+      "tag_ids": [
+        "tag-cyberpunk",
+        "tag-cityscape",
+        "tag-light-neon",
+        "tag-bg-night",
+        "tag-rain",
+        "tag-exp-eyecontact",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-cape"
+      ],
+      "description": "赛博朋克配雨夜霓虹，经典组合。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-55",
+      "title": "害羞-和服-回眸",
+      "positive": "kimono, blush, looking back, embarrassed, soft lighting, upper body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-outfit",
+        "cat-expression",
+        "cat-pose",
+        "cat-light"
+      ],
+      "tag_ids": [
+        "tag-outfit-kimono",
+        "tag-exp-blush",
+        "tag-pose-lookback",
+        "tag-embarrassed",
+        "tag-light-soft",
+        "tag-comp-upper",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "害羞 + 回眸 + 和服，三件套组合。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-56",
+      "title": "大笑-奔跑",
+      "positive": "laughing, running, full body, 1girl, solo, open mouth",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-expression",
+        "cat-pose",
+        "cat-composition"
+      ],
+      "tag_ids": [
+        "tag-laughing",
+        "tag-running",
+        "tag-comp-full",
+        "tag-1girl",
+        "tag-solo",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "大笑配奔跑，动感十足。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-57",
+      "title": "生气-叉腰",
+      "positive": "angry, hand on hip, serious, upper body, looking at viewer",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-expression",
+        "cat-pose"
+      ],
+      "tag_ids": [
+        "tag-angry",
+        "tag-hand-on-hip",
+        "tag-exp-serious",
+        "tag-comp-upper",
+        "tag-exp-eyecontact",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "生气叉腰，配 serious 更有气势。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-58",
+      "title": "午后小睡",
+      "positive": "sleeping, lying, pillow, soft lighting, calm, upper body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-pose",
+        "cat-expression",
+        "cat-light"
+      ],
+      "tag_ids": [
+        "tag-sleeping",
+        "tag-lying",
+        "tag-light-soft",
+        "tag-calm",
+        "tag-comp-upper",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "午睡配柔光 + calm，画面安静。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-59",
+      "title": "唱歌-麦克风",
+      "positive": "singing, microphone, headphones, smile, upper body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-pose",
+        "cat-prop"
+      ],
+      "tag_ids": [
+        "tag-singing",
+        "tag-microphone",
+        "tag-headphones",
+        "tag-exp-smile",
+        "tag-comp-upper",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-phone"
+      ],
+      "description": "唱歌配麦克风和耳机，偶像感十足。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-60",
+      "title": "游泳-水下",
+      "positive": "swimming, underwater, bubbles, serious, full body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-pose",
+        "cat-scene-nature"
+      ],
+      "tag_ids": [
+        "tag-swimming",
+        "tag-underwater",
+        "tag-bubbles",
+        "tag-exp-serious",
+        "tag-comp-full",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "水下游泳配气泡，动态感强。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-61",
+      "title": "拉面时间",
+      "positive": "eating, noodles, food, sitting, smile, chopsticks",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-pose",
+        "cat-prop"
+      ],
+      "tag_ids": [
+        "tag-eating",
+        "tag-noodles",
+        "tag-food",
+        "tag-pose-sit",
+        "tag-exp-smile",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "吃拉面配筷子，生活感拉满。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-62",
+      "title": "神社祈祷",
+      "positive": "praying, shrine, serious, standing, upper body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-pose",
+        "cat-scene-outdoor"
+      ],
+      "tag_ids": [
+        "tag-praying",
+        "tag-shrine",
+        "tag-exp-serious",
+        "tag-pose-stand",
+        "tag-comp-upper",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts"
+      ],
+      "description": "祈祷配神社，庄重氛围。",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pf-prompt-63",
+      "title": "打游戏",
+      "positive": "gamepad, headphones, sitting, serious, upper body",
+      "negative": "lowres, bad anatomy, bad hands, extra limbs, watermark, signature, text, blurry, jpeg artifacts",
+      "model_families": [
+        "anima",
+        "illustrious",
+        "noobai"
+      ],
+      "category_ids": [
+        "cat-prop",
+        "cat-pose"
+      ],
+      "tag_ids": [
+        "tag-gamepad",
+        "tag-headphones",
+        "tag-pose-sit",
+        "tag-exp-serious",
+        "tag-comp-upper",
+        "tag-neg-lowres",
+        "tag-neg-badhands",
+        "tag-neg-extralimbs",
+        "tag-neg-watermark",
+        "tag-neg-blurry",
+        "tag-bad-anatomy",
+        "tag-signature",
+        "tag-text",
+        "tag-jpeg-artifacts",
+        "tag-phone"
+      ],
+      "description": "打游戏配手柄和耳机，专注表情。",
+      "version": "1.0.0"
+    }
+  ]
+}

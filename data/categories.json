@@ -1,0 +1,334 @@
+{
+  "schema": "promptforge.categories/1",
+  "count": 41,
+  "items": [
+    {
+      "id": "cat-composition",
+      "name": "构图与镜头",
+      "name_en": "Composition",
+      "sort": 10,
+      "description": "景别、机位与画面裁切方式",
+      "group_name": "常规标签"
+    },
+    {
+      "id": "cat-light",
+      "name": "光线与色彩",
+      "name_en": "Light",
+      "sort": 70,
+      "description": "光源、色温与色调",
+      "group_name": "常规标签"
+    },
+    {
+      "id": "cat-photo",
+      "name": "摄影",
+      "name_en": "Camera",
+      "sort": 75,
+      "description": "机位、焦段与镜头感",
+      "group_name": "常规标签"
+    },
+    {
+      "id": "cat-quality",
+      "name": "画质与细节",
+      "name_en": "Quality",
+      "sort": 90,
+      "description": "清晰度与细节密度",
+      "group_name": "常规标签"
+    },
+    {
+      "id": "cat-quality-tags",
+      "name": "常用质量标签",
+      "name_en": "Quality tags",
+      "sort": 110,
+      "description": "通用的质量前缀",
+      "group_name": "常规标签"
+    },
+    {
+      "id": "cat-negative",
+      "name": "负向提示词",
+      "name_en": "Negative",
+      "sort": 120,
+      "description": "需要抑制的内容",
+      "group_name": "常规标签"
+    },
+    {
+      "id": "cat-style",
+      "name": "风格与材质",
+      "name_en": "Style",
+      "sort": 80,
+      "description": "画风、笔触与质感",
+      "group_name": "艺术题材"
+    },
+    {
+      "id": "cat-art-form",
+      "name": "表现形式",
+      "name_en": "Form",
+      "sort": 201,
+      "description": "动漫 / Q版 / 写实等呈现方式",
+      "group_name": "艺术题材"
+    },
+    {
+      "id": "cat-art-tech",
+      "name": "绘画技法",
+      "name_en": "Technique",
+      "sort": 202,
+      "description": "水彩、厚涂、线稿等",
+      "group_name": "艺术题材"
+    },
+    {
+      "id": "cat-art-style",
+      "name": "技术风格",
+      "name_en": "Tech style",
+      "sort": 203,
+      "description": "像素、低多边形、赛璐璐",
+      "group_name": "艺术题材"
+    },
+    {
+      "id": "cat-artist",
+      "name": "艺术家标签",
+      "name_en": "Artist",
+      "sort": 204,
+      "description": "按底模区分召唤写法，如 Anima 用 @//milk/",
+      "group_name": "艺术题材"
+    },
+    {
+      "id": "cat-art-move",
+      "name": "艺术流派",
+      "name_en": "Movement",
+      "sort": 205,
+      "description": "新艺术、波普、超现实",
+      "group_name": "艺术题材"
+    },
+    {
+      "id": "cat-art-media",
+      "name": "媒介与效果",
+      "name_en": "Media",
+      "sort": 206,
+      "description": "胶片、复古、故障",
+      "group_name": "艺术题材"
+    },
+    {
+      "id": "cat-scene",
+      "name": "场景与环境",
+      "name_en": "Scene",
+      "sort": 20,
+      "description": "室内外地点与空间",
+      "group_name": "场景"
+    },
+    {
+      "id": "cat-background",
+      "name": "背景与氛围",
+      "name_en": "Background",
+      "sort": 100,
+      "description": "景深、天气与情绪",
+      "group_name": "场景"
+    },
+    {
+      "id": "cat-scene-nature",
+      "name": "自然",
+      "name_en": "Nature",
+      "sort": 302,
+      "description": "海、山、森林、天气",
+      "group_name": "场景"
+    },
+    {
+      "id": "cat-scene-outdoor",
+      "name": "室外",
+      "name_en": "Outdoor",
+      "sort": 303,
+      "description": "公园、街道、车站",
+      "group_name": "场景"
+    },
+    {
+      "id": "cat-scene-city",
+      "name": "城市",
+      "name_en": "City",
+      "sort": 304,
+      "description": "城市景观与街道细节",
+      "group_name": "场景"
+    },
+    {
+      "id": "cat-scene-building",
+      "name": "建筑",
+      "name_en": "Architecture",
+      "sort": 305,
+      "description": "城堡、教堂、废墟",
+      "group_name": "场景"
+    },
+    {
+      "id": "cat-scene-indoor",
+      "name": "室内",
+      "name_en": "Indoor",
+      "sort": 306,
+      "description": "卧室、教室、咖啡厅",
+      "group_name": "场景"
+    },
+    {
+      "id": "cat-scene-landscape",
+      "name": "自然景观",
+      "name_en": "Landscape",
+      "sort": 307,
+      "description": "瀑布、峡谷、极光",
+      "group_name": "场景"
+    },
+    {
+      "id": "cat-scene-manmade",
+      "name": "人造景观",
+      "name_en": "Landmark",
+      "sort": 308,
+      "description": "摩天轮、灯塔、金字塔",
+      "group_name": "场景"
+    },
+    {
+      "id": "cat-outfit",
+      "name": "服装（整套）",
+      "name_en": "Outfit",
+      "sort": 402,
+      "description": "衣物、鞋帽与随身物件",
+      "group_name": "人物类"
+    },
+    {
+      "id": "cat-role",
+      "name": "职业与身份",
+      "name_en": "Role",
+      "sort": 40,
+      "description": "角色设定与身份标签",
+      "group_name": "人物类"
+    },
+    {
+      "id": "cat-pose",
+      "name": "人物姿态",
+      "name_en": "Pose",
+      "sort": 50,
+      "description": "身体朝向与动作",
+      "group_name": "人物类"
+    },
+    {
+      "id": "cat-expression",
+      "name": "表情与视线",
+      "name_en": "Expression",
+      "sort": 60,
+      "description": "面部表情与视线方向",
+      "group_name": "人物类"
+    },
+    {
+      "id": "cat-char",
+      "name": "人设与人数",
+      "name_en": "Character",
+      "sort": 401,
+      "description": "人数、性别、物种",
+      "group_name": "人物类"
+    },
+    {
+      "id": "cat-outfit-top",
+      "name": "上装",
+      "name_en": "Top",
+      "sort": 403,
+      "description": "衬衫、毛衣、外套",
+      "group_name": "人物类"
+    },
+    {
+      "id": "cat-outfit-bottom",
+      "name": "下装",
+      "name_en": "Bottom",
+      "sort": 404,
+      "description": "短裤、裙子、长裤",
+      "group_name": "人物类"
+    },
+    {
+      "id": "cat-accessory",
+      "name": "配饰",
+      "name_en": "Accessory",
+      "sort": 405,
+      "description": "眼镜、帽子、首饰",
+      "group_name": "人物类"
+    },
+    {
+      "id": "cat-eyes",
+      "name": "眼睛",
+      "name_en": "Eyes",
+      "sort": 407,
+      "description": "瞳色与眼型",
+      "group_name": "人物类"
+    },
+    {
+      "id": "cat-hair",
+      "name": "头发",
+      "name_en": "Hair",
+      "sort": 408,
+      "description": "发色、长度、发型",
+      "group_name": "人物类"
+    },
+    {
+      "id": "cat-ears",
+      "name": "耳朵",
+      "name_en": "Ears",
+      "sort": 409,
+      "description": "兽耳类型",
+      "group_name": "人物类"
+    },
+    {
+      "id": "cat-tail",
+      "name": "尾巴",
+      "name_en": "Tail",
+      "sort": 410,
+      "description": "尾巴类型",
+      "group_name": "人物类"
+    },
+    {
+      "id": "cat-horn",
+      "name": "角",
+      "name_en": "Horn",
+      "sort": 411,
+      "description": "角与龙角",
+      "group_name": "人物类"
+    },
+    {
+      "id": "cat-wing",
+      "name": "翅膀",
+      "name_en": "Wing",
+      "sort": 412,
+      "description": "羽翼、蝠翼、龙翼",
+      "group_name": "人物类"
+    },
+    {
+      "id": "cat-prop",
+      "name": "道具",
+      "name_en": "Prop",
+      "sort": 413,
+      "description": "伞、剑、书、杯子",
+      "group_name": "人物类"
+    },
+    {
+      "id": "cat-custom",
+      "name": "用户自定义分类",
+      "name_en": "Custom",
+      "sort": 200,
+      "description": "预留给你自己的分类",
+      "group_name": "其他"
+    },
+    {
+      "id": "cat-animal",
+      "name": "物种",
+      "name_en": "Species",
+      "sort": 414,
+      "description": "兽人常用的动物种类",
+      "group_name": "人物类"
+    },
+    {
+      "id": "cat-body",
+      "name": "身体特征",
+      "name_en": "Body",
+      "sort": 415,
+      "description": "獠牙、爪子、毛发等",
+      "group_name": "人物类"
+    },
+    {
+      "id": "cat-color",
+      "name": "色彩",
+      "name_en": "Color",
+      "sort": 76,
+      "description": "画面主色与氛围色",
+      "group_name": "常规标签"
+    }
+  ]
+}

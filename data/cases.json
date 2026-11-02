@@ -1,0 +1,180 @@
+{
+  "schema": "promptforge.cases/1",
+  "count": 6,
+  "items": [
+    {
+      "id": "pf-case-001",
+      "title": "教室窗边的午后",
+      "image_path": "public-cases/images/case-001.png",
+      "workflow_path": "public-cases/workflows/case-001.json",
+      "positive": "masterpiece, best quality, 1girl, solo, upper body, classroom, sitting, school uniform, window, soft lighting, afternoon, looking at viewer, smile, bokeh",
+      "negative": "lowres, bad hands, extra limbs, watermark, blurry",
+      "model": "Anima Base v1.0（示例底模名）",
+      "ksampler": {
+        "steps": 28,
+        "cfg": 6.5,
+        "sampler_name": "euler_ancestral",
+        "scheduler": "normal",
+        "denoise": 1.0
+      },
+      "seed": 1234567890,
+      "resolution": "1024x1024",
+      "vae": "anima_vae（示例）",
+      "tags": [
+        "示例",
+        "日常",
+        "教室",
+        "柔光"
+      ],
+      "description": "示例案例：演示「图片 + 参数 + 工作流」三者的绑定方式。画面为程序生成的占位图，不是真实生成作品；实际案例请用「我的私有案例 → 导入作品」添加。",
+      "loras": [],
+      "version": "1.0.0",
+      "created_at": "2026-10-20T10:00:00"
+    },
+    {
+      "id": "pf-case-002",
+      "title": "天台逆光全身",
+      "image_path": "public-cases/images/case-002.png",
+      "workflow_path": "public-cases/workflows/case-002.json",
+      "positive": "masterpiece, best quality, highly detailed, 1girl, solo, full body, rooftop, school uniform, standing, backlighting, golden hour, sky, looking at viewer, smile",
+      "negative": "lowres, bad hands, extra limbs, watermark, blurry, deformed fingers",
+      "model": "Illustrious XL v1.0（示例底模名）",
+      "ksampler": {
+        "steps": 30,
+        "cfg": 7.0,
+        "sampler_name": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1.0
+      },
+      "seed": 884422,
+      "resolution": "832x1216",
+      "vae": "sdxl_vae（示例）",
+      "tags": [
+        "示例",
+        "逆光",
+        "天台",
+        "全身"
+      ],
+      "description": "示例案例：演示 KSampler 与 Seed、分辨率、VAE 的完整记录。画面为程序生成的占位图，参数仅用于展示字段结构。",
+      "loras": [],
+      "version": "1.0.0",
+      "created_at": "2026-10-21T14:20:00"
+    },
+    {
+      "id": "pf-case-003",
+      "title": "雨后街道的回眸",
+      "image_path": "public-cases/images/case-003.png",
+      "workflow_path": "public-cases/workflows/case-003.json",
+      "positive": "masterpiece, best quality, 1girl, solo, cowboy shot, street, night, rain, wet ground, reflections, looking back, over shoulder, serious, neon lights, cinematic lighting",
+      "negative": "lowres, bad hands, extra limbs, watermark, blurry, flat lighting",
+      "model": "NoobAI-XL v1.1（示例底模名）",
+      "ksampler": {
+        "steps": 32,
+        "cfg": 5.5,
+        "sampler_name": "dpmpp_2m_sde",
+        "scheduler": "karras",
+        "denoise": 1.0
+      },
+      "seed": 20261021,
+      "resolution": "1024x1024",
+      "vae": "noobai_vae（示例）",
+      "tags": [
+        "示例",
+        "夜景",
+        "雨后",
+        "氛围"
+      ],
+      "description": "示例案例：演示多行 KSampler 参数与工作流文件的关联。画面为程序生成的占位图，工作流是结构示例。",
+      "loras": [],
+      "version": "1.0.0",
+      "created_at": "2026-10-22T19:05:00"
+    },
+    {
+      "id": "pf-case-004",
+      "title": "夜灯下的侧脸",
+      "image_path": "public-cases/images/case-004.png",
+      "workflow_path": "public-cases/workflows/case-004.json",
+      "positive": "masterpiece, best quality, 1girl, solo, close-up, night, neon lights, side profile, backlighting, blush, calm expression",
+      "negative": "lowres, bad hands, watermark, blurry, deformed face",
+      "model": "Anima Base v1.0（示例底模名）",
+      "ksampler": {
+        "steps": 26,
+        "cfg": 6.0,
+        "sampler_name": "euler",
+        "scheduler": "simple",
+        "denoise": 1.0
+      },
+      "seed": 777001,
+      "resolution": "896x1152",
+      "vae": "anima_vae（示例）",
+      "tags": [
+        "示例",
+        "夜景",
+        "特写",
+        "侧脸"
+      ],
+      "description": "示例案例：演示低步数参数的记录方式。画面为程序生成的占位图。",
+      "loras": [],
+      "version": "1.0.0",
+      "created_at": "2026-10-23T21:40:00"
+    },
+    {
+      "id": "pf-case-005",
+      "title": "和服与纸伞",
+      "image_path": "public-cases/images/case-005.png",
+      "workflow_path": "public-cases/workflows/case-005.json",
+      "positive": "masterpiece, best quality, highly detailed, 1girl, solo, cowboy shot, kimono, floral pattern, holding paper umbrella, standing, soft lighting, autumn, looking at viewer, gentle smile",
+      "negative": "lowres, bad hands, extra limbs, watermark, blurry, wrong kimono collar",
+      "model": "Illustrious XL v1.0（示例底模名）",
+      "ksampler": {
+        "steps": 30,
+        "cfg": 6.8,
+        "sampler_name": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1.0
+      },
+      "seed": 31415926,
+      "resolution": "832x1216",
+      "vae": "sdxl_vae（示例）",
+      "tags": [
+        "示例",
+        "和风",
+        "服装",
+        "柔光"
+      ],
+      "description": "示例案例：演示竖构图参数与工作流的保存。画面为程序生成的占位图。",
+      "loras": [],
+      "version": "1.0.0",
+      "created_at": "2026-10-24T11:15:00"
+    },
+    {
+      "id": "pf-case-006",
+      "title": "图书馆的安静时刻",
+      "image_path": "public-cases/images/case-006.png",
+      "workflow_path": "public-cases/workflows/case-006.json",
+      "positive": "masterpiece, best quality, highly detailed, 1girl, solo, upper body, library, bookshelf, sitting, reading, warm lighting, dust in the air, calm atmosphere, looking down",
+      "negative": "lowres, bad hands, extra limbs, watermark, blurry, cluttered composition",
+      "model": "NoobAI-XL v1.1（示例底模名）",
+      "ksampler": {
+        "steps": 34,
+        "cfg": 5.0,
+        "sampler_name": "euler_ancestral",
+        "scheduler": "karras",
+        "denoise": 1.0
+      },
+      "seed": 424242,
+      "resolution": "1216x832",
+      "vae": "noobai_vae（示例）",
+      "tags": [
+        "示例",
+        "室内",
+        "暖光",
+        "氛围"
+      ],
+      "description": "示例案例：不使用 LoRA 的基线记录，用于对照参数。画面为程序生成的占位图。",
+      "loras": [],
+      "version": "1.0.0",
+      "created_at": "2026-10-25T16:30:00"
+    }
+  ]
+}

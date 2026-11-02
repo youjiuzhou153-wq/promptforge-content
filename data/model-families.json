@@ -1,0 +1,30 @@
+{
+  "schema": "promptforge.model-families/1",
+  "count": 4,
+  "items": [
+    {
+      "id": "anima",
+      "name": "Anima",
+      "sort": 10,
+      "description": "Anima 系基础模型。线条干净、色块明快，适合日常与人物立绘。"
+    },
+    {
+      "id": "illustrious",
+      "name": "Illustrious",
+      "sort": 20,
+      "description": "Illustrious 系基础模型。细节密度高，适合光影强烈的人像与场景。"
+    },
+    {
+      "id": "noobai",
+      "name": "NoobAI",
+      "sort": 30,
+      "description": "NoobAI 系基础模型。对长描述与风格词响应明显，适合氛围向画面。"
+    },
+    {
+      "id": "pony",
+      "name": "Pony",
+      "sort": 40,
+      "description": "Pony 系基础模型。标签体系独立，角色 LoRA 多为 Pony 专用版本。"
+    }
+  ]
+}

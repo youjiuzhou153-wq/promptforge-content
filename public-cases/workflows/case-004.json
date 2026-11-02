@@ -1,0 +1,92 @@
+{
+  "3": {
+    "class_type": "KSampler",
+    "inputs": {
+      "seed": 777001,
+      "steps": 26,
+      "cfg": 6.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 1.0,
+      "model": [
+        "4",
+        0
+      ],
+      "positive": [
+        "6",
+        0
+      ],
+      "negative": [
+        "7",
+        0
+      ],
+      "latent_image": [
+        "5",
+        0
+      ]
+    }
+  },
+  "4": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "Anima Base v1.0.safetensors"
+    }
+  },
+  "5": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 896,
+      "height": 1152,
+      "batch_size": 1
+    }
+  },
+  "6": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "masterpiece, best quality, 1girl, solo, close-up, night, neon lights, side profile, backlighting, blush, calm expression",
+      "clip": [
+        "4",
+        1
+      ]
+    }
+  },
+  "7": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "lowres, bad hands, watermark, blurry, deformed face",
+      "clip": [
+        "4",
+        1
+      ]
+    }
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        2
+      ]
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "PromptForge/pf-case-004",
+      "images": [
+        "8",
+        0
+      ]
+    }
+  },
+  "_meta": {
+    "title": "夜灯下的侧脸",
+    "promptforge_case_id": "pf-case-004",
+    "note": "示例工作流（结构示例），未在真实 ComfyUI 环境验证。VAE 字段记录于案例元数据：anima_vae（示例）",
+    "format": "comfyui-api"
+  }
+}

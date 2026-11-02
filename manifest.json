@@ -3,7 +3,7 @@
   "content_version": "1.0.0",
   "published_at": "2026-11-02T14:00:00",
   "min_app_version": "1.2.0",
-  "notes": "1.4.1：LoRA 扩到 419 条；新增分区（明日方舟/有兽焉/漫威争锋/堡垒之夜/洛克王国/原神等）；Marshbear 画风换用自定义封面。",
+  "notes": "1.0.0：LoRA 419 条 / 402 标签 / 63 提示词 / 7 底模 / 6 案例；46 个角色分区 + 画风分区；新版前端支持分区筛选、提示词折叠标签、我的收藏与投稿审核。",
   "counts": {
     "model-families": 4,
     "categories": 41,
@@ -51,38 +51,38 @@
     },
     {
       "path": "data/base-models.json",
-      "size": 5334,
-      "sha256": "313514b7f45d6ff07dcc457cf9f882a4f0839e20d731477b147dc38bd4ee4c28"
+      "size": 5224,
+      "sha256": "429f16af66bd7389ac0434ca0c20a924a411d40267b3f641afa3c5d1b6100cdf"
     },
     {
       "path": "data/cases.json",
-      "size": 6924,
-      "sha256": "dc31022d012525ecf863ae12c84bbcfafb4d68f773f0c036a61ae4e1c1e88dd5"
+      "size": 6745,
+      "sha256": "10e96b2f9902b7348bceb08e41ee39692fa08ad9e13e2e5cb5a2b66d49e022ea"
     },
     {
       "path": "data/categories.json",
-      "size": 8533,
-      "sha256": "d423d4eb9f28ada7eb9fdb0f79220fbc7e08d831fafa4d4a08ea0fd31a8ae66e"
+      "size": 8200,
+      "sha256": "ff12ac0b85621f493b5b6a3be3203fab834aac0d6ae0c2e8ce70302253f26fbc"
     },
     {
       "path": "data/loras.json",
-      "size": 694500,
-      "sha256": "ccf493217f2d837bbf8435607954fd2376a60282874528c43855a406763a0bd7"
+      "size": 676997,
+      "sha256": "12ca512af7def63a4ee692f209ff805127f8f33ff86c56361b5c86f6160c6be5"
     },
     {
       "path": "data/model-families.json",
-      "size": 856,
-      "sha256": "b081db4a7baa5da94bd61650decd289a1aaa0403b60ff1c294bd8b79607e5bc5"
+      "size": 827,
+      "sha256": "01c5a548b084826010c2a87b0d06cdc2edc93d35cc04c685859b8bf4353945e7"
     },
     {
       "path": "data/prompts.json",
-      "size": 58849,
-      "sha256": "8e7f97269cc2fd3acc77e5a781fcadb9ee344fd037338e1e14de9018d722f4fe"
+      "size": 56817,
+      "sha256": "3cf46ca564b27ed193a24fa30c4f751c841013e9f0df7d30464fbc6247b5aa77"
     },
     {
       "path": "data/tags.json",
-      "size": 94423,
-      "sha256": "f08428e78f09493cf0f8955c167f417d736f7d3fa323d83c476ae6361a804e4a"
+      "size": 90638,
+      "sha256": "d5307770ab45c7dba9d5fdde8d61da3ed9c899112d3d351f9eda4aee4d5c51e2"
     },
     {
       "path": "loras/previews/lora-char-109.jpg",
@@ -2296,33 +2296,33 @@
     },
     {
       "path": "public-cases/workflows/case-001.json",
-      "size": 1870,
-      "sha256": "1984f30703945aa41fcd31565ccc6f42b2184c5815795bd814ceabac31340cf9"
+      "size": 1779,
+      "sha256": "176dc3ed3104b1cf3c199504bd28aeb4dcd1c03b232ff722f64751f27c3d563e"
     },
     {
       "path": "public-cases/workflows/case-002.json",
-      "size": 1882,
-      "sha256": "12a0a6d5e05cad7f0b47a2509a2f313214c44abe3b677ece5daef5b45c41a15d"
+      "size": 1791,
+      "sha256": "7aab1def68d34211df7fdbb09655494d00e321a3018d2f0aacfe07e96971eb73"
     },
     {
       "path": "public-cases/workflows/case-003.json",
-      "size": 1895,
-      "sha256": "4e84b23388c1e90d94636b14d58927c9924b957c98d8754354ffa5057667323b"
+      "size": 1804,
+      "sha256": "0d2b2c25bb3d03fc86faa025330bb6669f3ca098bb1eef4dc9f57ec8ec27f69b"
     },
     {
       "path": "public-cases/workflows/case-004.json",
-      "size": 1821,
-      "sha256": "6b583aa9babd0312bfd74883816e261b42a4fdaff5eafefb785b3ad9c41bfdc2"
+      "size": 1730,
+      "sha256": "2c125bd4dbc96920acd09d407dfcf66dabc8f7c4ac65e8ce016067b1183c76c7"
     },
     {
       "path": "public-cases/workflows/case-005.json",
-      "size": 1907,
-      "sha256": "5ea2cf035afd14fc68c07e3f74c2ad5ca83e8f6574476d739e963024d9a3ec95"
+      "size": 1816,
+      "sha256": "78c9b6f308b47163ac23e836b1cbab2fe13569365a2f52fc0fa8d35f6dc52d74"
     },
     {
       "path": "public-cases/workflows/case-006.json",
-      "size": 1906,
-      "sha256": "7f28130bd886923b29d73e94f9541bbdc6fdaee3d72fa6ca08691efb34149a3f"
+      "size": 1815,
+      "sha256": "c9ef77a9da388bd919ec0ee899fd811c35ec58d888f90c1e6cbdd39e1bb4aa97"
     }
   ],
   "withdrawn": [
@@ -2416,5 +2416,5 @@
     }
   ],
   "generator": "promptforge-build/1.0",
-  "generated_at": "2026-11-02T14:16:20"
+  "generated_at": "2026-11-02T18:38:06"
 }
